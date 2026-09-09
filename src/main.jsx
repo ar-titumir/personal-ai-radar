@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { ArrowUpRight, Bell, Bookmark, ChevronRight, CircleDot, Clock3, Compass, Cpu, ExternalLink, LayoutDashboard, ListFilter, Menu, Radar, Search, ShieldCheck, Sparkles, X } from 'lucide-react';
+import { ArrowUpRight, Bell, Bookmark, ChevronRight, CircleDot, Clock3, Compass, Cpu, ExternalLink, LayoutDashboard, ListFilter, Menu, MessageSquare, Radar, Search, ShieldCheck, Sparkles, X } from 'lucide-react';
 import data from '../data/news.json';
 import './styles.css';
 
@@ -13,6 +13,7 @@ const nav = [
 const categories = ['All signals', 'Edge AI', 'Models', 'Tools', 'Security', 'Devices', 'Business'];
 const signalColors = { 'Edge AI': 'teal', Security: 'rose', Tools: 'violet', Models: 'blue', Devices: 'amber', Business: 'green' };
 const safeHttpUrl = (value) => { try { const url = new URL(value); return ['http:', 'https:'].includes(url.protocol) ? url.href : '#'; } catch { return '#'; } };
+const feedbackRepo = import.meta.env.VITE_GITHUB_REPO || 'ar-titumir/personal-ai-radar';
 
 function App() {
   const [active, setActive] = useState('Today');
@@ -20,12 +21,25 @@ function App() {
   const [query, setQuery] = useState('');
   const [saved, setSaved] = useState([]);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [feedbackOpen, setFeedbackOpen] = useState(false);
+  const [feedbackType, setFeedbackType] = useState('Correction');
+  const [feedbackText, setFeedbackText] = useState('');
   const stories = useMemo(() => data.stories.filter((story) => {
     const sectionMatch = active === 'Saved' ? saved.includes(story.id) : active === 'Business signals' ? story.category === 'Business' : active === 'AI Radar' ? story.category !== 'Business' : true;
     return sectionMatch && (category === 'All signals' || story.category === category) && `${story.title} ${story.summary} ${story.source}`.toLowerCase().includes(query.toLowerCase());
   }), [active, category, query, saved]);
   const today = new Date(data.updatedAt).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
   const save = (id) => setSaved((items) => items.includes(id) ? items.filter((item) => item !== id) : [...items, id]);
+  const submitFeedback = (event) => {
+    event.preventDefault();
+    const text = feedbackText.trim();
+    if (!text) return;
+    const title = `[${feedbackType}] Radar feedback`;
+    const body = `## Feedback\n\n${text}\n\n---\nSubmitted from Signal / Personal AI Radar. Please verify this feedback before changing future briefs.`;
+    window.open(`https://github.com/${feedbackRepo}/issues/new?labels=feedback&title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`, '_blank', 'noopener,noreferrer');
+    setFeedbackText('');
+    setFeedbackOpen(false);
+  };
 
   return <div className="app-shell">
     <aside className={`sidebar ${menuOpen ? 'open' : ''}`}>
@@ -33,7 +47,7 @@ function App() {
       <div className="profile"><div className="avatar">AT</div><div><strong>Titumir</strong><span>Personal radar</span></div><button className="icon-button"><Bell size={16} /></button></div>
       <p className="eyebrow nav-label">Workspace</p>
       <nav>{nav.map(({ label, icon: Icon }) => <button key={label} className={`nav-item ${active === label ? 'active' : ''}`} onClick={() => { setActive(label); setMenuOpen(false); }}><Icon size={17} /><span>{label}</span>{label === 'Today' && <span className="nav-count">{data.stories.filter((s) => s.date === data.updatedAt.slice(0, 10)).length}</span>}</button>)}</nav>
-      <div className="sidebar-bottom"><div className="focus-card"><div className="focus-icon"><Sparkles size={16} /></div><strong>Focus for today</strong><p>Understand where edge AI meets useful automation.</p><button>Open focus <ArrowUpRight size={14} /></button></div><div className="system-status"><CircleDot size={13} /> Radar synced <span>{new Date(data.updatedAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span></div></div>
+      <div className="sidebar-bottom"><div className="focus-card"><div className="focus-icon"><Sparkles size={16} /></div><strong>Focus for today</strong><p>Understand where edge AI meets useful automation.</p><button>Open focus <ArrowUpRight size={14} /></button></div><button className="feedback-link" onClick={() => setFeedbackOpen(true)}><MessageSquare size={15} /> Give feedback</button><div className="system-status"><CircleDot size={13} /> Radar synced <span>{new Date(data.updatedAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span></div></div>
     </aside>
     {menuOpen && <button className="scrim" onClick={() => setMenuOpen(false)} aria-label="Close menu" />}
     <main className="main-content">
@@ -45,6 +59,7 @@ function App() {
       <section className="content-grid"><div className="story-feed">{stories.map((story, index) => <StoryCard key={story.id} story={story} featured={index === 0 && category === 'All signals'} isSaved={saved.includes(story.id)} onSave={() => save(story.id)} />)}{!stories.length && <div className="empty-state"><Search size={22} /><strong>No signals found</strong><span>Try another search or clear the category filter.</span></div>}</div><aside className="right-rail"><div className="rail-card business-card"><div className="card-head"><div><p className="eyebrow">Business insight</p><h3>Where attention<br />could become value</h3></div><div className="insight-icon"><Cpu size={19} /></div></div><p>Small teams are building durable businesses around the messy middle: connecting models to real systems, permissions and outcomes.</p><div className="idea-list"><div><span className="idea-number">01</span><span><strong>AI ops for local businesses</strong><small>High urgency · Low tooling</small></span></div><div><span className="idea-number">02</span><span><strong>Private edge assistants</strong><small>Growing capability · New channel</small></span></div><div><span className="idea-number">03</span><span><strong>Agent observability</strong><small>Early market · Clear pain</small></span></div></div><button className="text-button">Explore all opportunities <ArrowUpRight size={14} /></button></div><div className="rail-card learn-card"><div className="learn-top"><div className="learn-icon"><Sparkles size={16} /></div><span>Suggested next</span></div><h3>Map the local<br />AI stack</h3><p>Understand models, runtimes and hardware before choosing your next build.</p><div className="progress"><span /><span /><span /><span /><span /><b>2/5</b></div><button>Continue learning <ChevronRight size={14} /></button></div></aside></section>
       <footer><span>signal / personal intelligence</span><span>Built for a clearer morning · {new Date(data.updatedAt).getFullYear()}</span></footer>
     </main>
+    {feedbackOpen && <div className="modal-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setFeedbackOpen(false); }}><section className="feedback-modal" role="dialog" aria-modal="true" aria-labelledby="feedback-title"><button className="modal-close" onClick={() => setFeedbackOpen(false)} aria-label="Close feedback"><X size={18} /></button><p className="eyebrow">Help improve the radar</p><h2 id="feedback-title">What should Hermes verify?</h2><p className="modal-copy">Your note opens a GitHub feedback issue. Hermes reviews these issues before the next daily update.</p><form onSubmit={submitFeedback}><label>Feedback type<select value={feedbackType} onChange={(event) => setFeedbackType(event.target.value)}><option>Correction</option><option>Source suggestion</option><option>Missing topic</option><option>Other</option></select></label><label>Your feedback<textarea value={feedbackText} onChange={(event) => setFeedbackText(event.target.value)} placeholder="Tell Hermes what to check..." rows="5" required /></label><button className="modal-submit" type="submit">Continue to GitHub <ArrowUpRight size={15} /></button></form></section></div>}
   </div>;
 }
 

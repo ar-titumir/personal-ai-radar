@@ -13,7 +13,13 @@ Then open the local URL printed by Vite.
 
 ## Daily refresh
 
-`scripts/refresh-news.mjs` reads public RSS feeds and writes `data/news.json`. GitHub Actions runs it daily at 03:15 UTC via `.github/workflows/daily-news.yml`. The current UI intentionally keeps summaries editorial and local so the app works without an API key; the next production step is adding an LLM summarization job with a secret stored in GitHub Actions.
+The website is static and does not update itself. The GitHub Actions refresh workflow was intentionally removed. Hermes owns the daily pipeline: it searches for current stories, verifies them against primary sources, reads feedback issues, updates `data/news.json`, runs the production build, and pushes the verified commit to GitHub. See `docs/hermes-daily-refresh.md` for the exact runbook and scheduler setup.
+
+The `scripts/refresh-news.mjs` feed reader remains available as a research helper, but it is not authoritative and is not scheduled by GitHub.
+
+## Feedback without a backend
+
+The **Give feedback** control opens a pre-filled GitHub Issue. Issues are the durable feedback store; label them `feedback`. Hermes reads open feedback issues during its daily verification run, checks each claim, and closes or comments on the issue after handling it. Set `VITE_GITHUB_REPO=owner/repository` when the deployment repo is known.
 
 ## Deployment options
 
