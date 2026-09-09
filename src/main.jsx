@@ -12,6 +12,7 @@ const nav = [
 ];
 const categories = ['All signals', 'Edge AI', 'Models', 'Tools', 'Security', 'Devices', 'Business'];
 const signalColors = { 'Edge AI': 'teal', Security: 'rose', Tools: 'violet', Models: 'blue', Devices: 'amber', Business: 'green' };
+const safeHttpUrl = (value) => { try { const url = new URL(value); return ['http:', 'https:'].includes(url.protocol) ? url.href : '#'; } catch { return '#'; } };
 
 function App() {
   const [active, setActive] = useState('Today');
@@ -19,7 +20,10 @@ function App() {
   const [query, setQuery] = useState('');
   const [saved, setSaved] = useState([]);
   const [menuOpen, setMenuOpen] = useState(false);
-  const stories = useMemo(() => data.stories.filter((story) => (category === 'All signals' || story.category === category) && `${story.title} ${story.summary} ${story.source}`.toLowerCase().includes(query.toLowerCase())), [category, query]);
+  const stories = useMemo(() => data.stories.filter((story) => {
+    const sectionMatch = active === 'Saved' ? saved.includes(story.id) : active === 'Business signals' ? story.category === 'Business' : active === 'AI Radar' ? story.category !== 'Business' : true;
+    return sectionMatch && (category === 'All signals' || story.category === category) && `${story.title} ${story.summary} ${story.source}`.toLowerCase().includes(query.toLowerCase());
+  }), [active, category, query, saved]);
   const today = new Date(data.updatedAt).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
   const save = (id) => setSaved((items) => items.includes(id) ? items.filter((item) => item !== id) : [...items, id]);
 
@@ -46,7 +50,7 @@ function App() {
 
 function StoryCard({ story, featured, isSaved, onSave }) {
   const color = signalColors[story.category] || 'blue';
-  return <article className={`story-card ${featured ? 'featured' : ''}`}><div className={`story-accent ${color}`} /><div className="story-body"><div className="story-top"><span className={`category-dot ${color}`} /> <span className="story-category">{story.category}</span><span className="story-tag">{story.tag}</span><button className={`save-button ${isSaved ? 'saved' : ''}`} onClick={onSave} aria-label={isSaved ? 'Remove bookmark' : 'Save story'}><Bookmark size={16} fill={isSaved ? 'currentColor' : 'none'} /></button></div><h3><a href={story.url} target="_blank" rel="noreferrer">{story.title}</a></h3><p>{story.summary}</p><div className="story-foot"><span className="source">{story.source}</span><span>{story.date} · {story.time}</span><span>{story.readTime} read</span><span className={`impact ${story.impact.toLowerCase()}`}>{story.impact} impact</span><a className="read-link" href={story.url} target="_blank" rel="noreferrer">Read <ExternalLink size={13} /></a></div></div></article>;
+  return <article className={`story-card ${featured ? 'featured' : ''}`}><div className={`story-accent ${color}`} /><div className="story-body"><div className="story-top"><span className={`category-dot ${color}`} /> <span className="story-category">{story.category}</span><span className="story-tag">{story.tag}</span><button className={`save-button ${isSaved ? 'saved' : ''}`} onClick={onSave} aria-label={isSaved ? 'Remove bookmark' : 'Save story'}><Bookmark size={16} fill={isSaved ? 'currentColor' : 'none'} /></button></div><h3><a href={safeHttpUrl(story.url)} target="_blank" rel="noreferrer">{story.title}</a></h3><p>{story.summary}</p><div className="story-foot"><span className="source">{story.source}</span><span>{story.date} · {story.time}</span><span>{story.readTime} read</span><span className={`impact ${story.impact.toLowerCase()}`}>{story.impact} impact</span><a className="read-link" href={safeHttpUrl(story.url)} target="_blank" rel="noreferrer">Read <ExternalLink size={13} /></a></div></div></article>;
 }
 
 createRoot(document.getElementById('root')).render(<App />);
