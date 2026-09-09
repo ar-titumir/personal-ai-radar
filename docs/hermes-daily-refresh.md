@@ -19,7 +19,7 @@ Work in the Personal_dashboard repository. This is the daily editorial update.
 8. Report sources checked, stories published, feedback handled, commit SHA, and any blockers. If there is no verified update, do not manufacture a change or empty the existing data.
 ```
 
-Recommended schedule: `every day at 9am` (use the user's local Hermes timezone). The repository must have a configured `origin`; Hermes needs GitHub CLI authentication for issue reading and pushing.
+Recommended schedule: `every day at 6am` (use the user's local Hermes timezone, Asia/Dhaka / Bangladesh time). The repository must have a configured `origin`; Hermes needs GitHub CLI authentication for issue reading and pushing.
 
 ## Why GitHub Issues is the feedback store
 

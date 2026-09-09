@@ -37,14 +37,18 @@ for (const [source, url] of feeds) {
 }
 
 const existing = JSON.parse(await readFile('data/news.json', 'utf8'));
-const today = new Date().toISOString().slice(0, 10);
+const now = new Date();
+const bdParts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Dhaka', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false }).formatToParts(now);
+const bd = (type) => bdParts.find((part) => part.type === type)?.value;
+const today = `${bd('year')}-${bd('month')}-${bd('day')}`;
+const currentTime = `${bd('hour')}:${bd('minute')}`;
 const results = resultsByFeed.flatMap((feed) => feed.map((story, index) => ({ story, index }))).sort((a, b) => a.index - b.index).map(({ story }) => story);
 const fresh = results.slice(0, 12).map((item, index) => ({
   id: `feed-${today}-${index}`,
   title: item.title,
   source: item.source,
   date: today,
-  time: new Date().toISOString().slice(11, 16),
+  time: currentTime,
   category: item.category,
   tag: index < 3 ? 'Fresh signal' : 'From the radar',
   summary: item.summary.replace(/\s+/g, ' ').slice(0, 240),
@@ -53,5 +57,10 @@ const fresh = results.slice(0, 12).map((item, index) => ({
   url: item.url
 }));
 
-await writeFile('data/news.json', JSON.stringify({ updatedAt: new Date().toISOString(), stories: fresh.length ? fresh : existing.stories }, null, 2) + '\n');
-console.log(`Saved ${fresh.length || existing.stories.length} stories.`);
+const byUrl = new Map();
+for (const story of [...existing.stories, ...fresh]) {
+  if (story.url) byUrl.set(story.url, story);
+}
+const stories = [...byUrl.values()].sort((a, b) => `${b.date} ${b.time}`.localeCompare(`${a.date} ${a.time}`));
+await writeFile('data/news.json', JSON.stringify({ updatedAt: now.toISOString(), stories }, null, 2) + '\n');
+console.log(`Saved ${fresh.length} fresh stories; archive now contains ${stories.length} stories.`);

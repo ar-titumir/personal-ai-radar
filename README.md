@@ -13,7 +13,7 @@ Then open the local URL printed by Vite.
 
 ## Daily refresh
 
-The website is static and does not update itself. The GitHub Actions refresh workflow was intentionally removed. Hermes owns the daily pipeline: it searches for current stories, verifies them against primary sources, reads feedback issues, updates `data/news.json`, runs the production build, and pushes the verified commit to GitHub. See `docs/hermes-daily-refresh.md` for the exact runbook and scheduler setup.
+The website is static and does not update itself. The GitHub Actions refresh workflow was intentionally removed. Hermes owns the daily pipeline: it searches for current stories, verifies them against primary sources, reads feedback issues, appends new stories to the date archive, updates `data/news.json`, runs the production build, and pushes the verified commit to GitHub at 6:00am Bangladesh time. See `docs/hermes-daily-refresh.md` for the exact runbook and scheduler setup.
 
 The `scripts/refresh-news.mjs` feed reader remains available as a research helper, but it is not authoritative and is not scheduled by GitHub.
 
