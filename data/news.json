@@ -1,6 +1,32 @@
 {
-  "updatedAt": "2026-09-10T00:00:24.000Z",
+  "updatedAt": "2026-09-11T00:00:33.000Z",
   "stories": [
+    {
+      "id": "feed-2026-09-11-1",
+      "title": "Mistral raises €3B to build sovereign, open-weight AI",
+      "source": "Mistral",
+      "date": "2026-09-11",
+      "time": "01:49",
+      "category": "Business",
+      "tag": "Fresh signal",
+      "summary": "Mistral announced a €3 billion Series D at a post-money valuation above €21 billion, led by Samsung Electronics with EQT-managed Scaleup Europe Fund and PSG Equity. The company says the funding will expand frontier research, compute capacity, infrastructure, and international commercial growth around its open-weight, full-stack approach.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+    },
+    {
+      "id": "feed-2026-09-10-4",
+      "title": "Microsoft publishes a Safe Participation Framework for young people online",
+      "source": "Microsoft",
+      "date": "2026-09-10",
+      "time": "Not stated",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "Microsoft shared a framework for designing online and AI experiences that are safe, privacy-preserving, and age-appropriate for young people. It sets out safety-by-design and related safeguards, including stronger protections for children and teenagers in Windows Family Safety, Bing generative experiences, and SafeSearch.",
+      "readTime": "4 min",
+      "impact": "Medium",
+      "url": "https://blogs.microsoft.com/on-the-issues/2026/09/10/safe-participation-framework-opportunity-and-safety-for-the-next-generation-in-the-age-of-ai"
+    },
     {
       "id": "feed-2026-09-10-3",
       "title": "AI spending growth slowed in August, Ramp data suggests",
