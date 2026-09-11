@@ -1,5 +1,11 @@
 import { readFile, writeFile } from 'node:fs/promises';
 
+// Research helper only — not authoritative. Hermes owns the real daily
+// pipeline (see docs/hermes-daily-refresh.md). This script writes ONLY
+// today's file, data/news_<today>.json, and never touches a previous day's
+// file: the per-day archive is append-only by design so old news is never
+// silently lost the way it was under the single news.json file.
+
 const feeds = [
   ['MIT Technology Review', 'https://www.technologyreview.com/feed/'],
   ['TechCrunch AI', 'https://techcrunch.com/category/artificial-intelligence/feed/'],
@@ -41,7 +47,7 @@ const fetchArticleSummary = async (item) => {
   try {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 15000);
-    const response = await fetch(item.url, { headers: { 'user-agent': 'personal-ai-radar/0.1', accept: 'text/html' }, signal: controller.signal });
+    const response = await fetch(item.url, { headers: { 'user-agent': 'personal-ai-radar/0.2', accept: 'text/html' }, signal: controller.signal });
     clearTimeout(timeout);
     if (!response.ok) return summarize(item.summary, fallback);
     const html = await response.text();
@@ -56,7 +62,7 @@ for (const [source, url] of feeds) {
   try {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 15000);
-    const response = await fetch(url, { headers: { 'user-agent': 'personal-ai-radar/0.1', accept: 'application/rss+xml, application/atom+xml, text/xml' }, signal: controller.signal });
+    const response = await fetch(url, { headers: { 'user-agent': 'personal-ai-radar/0.2', accept: 'application/rss+xml, application/atom+xml, text/xml' }, signal: controller.signal });
     clearTimeout(timeout);
     const contentType = response.headers.get('content-type') || '';
     if (!response.ok || (!contentType.includes('xml') && !contentType.includes('rss') && !contentType.includes('atom') && !contentType.includes('text'))) continue;
@@ -72,32 +78,42 @@ for (const [source, url] of feeds) {
   }
 }
 
-const existing = JSON.parse(await readFile('data/news.json', 'utf8'));
 const now = new Date();
 const bdParts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Dhaka', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false }).formatToParts(now);
 const bd = (type) => bdParts.find((part) => part.type === type)?.value;
 const today = `${bd('year')}-${bd('month')}-${bd('day')}`;
 const currentTime = `${bd('hour')}:${bd('minute')}`;
+const todayFile = `data/news_${today}.json`;
+
+let existingToday = { date: today, stories: [] };
+try {
+  existingToday = JSON.parse(await readFile(todayFile, 'utf8'));
+} catch {
+  // No file for today yet — that's expected the first time this runs each day.
+}
+
 const results = resultsByFeed.flatMap((feed) => feed.map((story, index) => ({ story, index }))).sort((a, b) => a.index - b.index).map(({ story }) => story);
-const fresh = await Promise.all(results.slice(0, 12).map(async (item, index) => ({
-  id: `feed-${today}-${index}`,
+const startIndex = existingToday.stories.length;
+const fresh = await Promise.all(results.slice(0, 12).map(async (item, offset) => ({
+  id: `${today}-${startIndex + offset}`,
   title: item.title,
   source: item.source,
-  date: today,
   time: currentTime,
   category: item.category,
-  tag: index < 3 ? 'Fresh signal' : 'From the radar',
+  tag: 'From the radar',
   summary: await fetchArticleSummary(item),
   readTime: '5 min',
-  impact: index < 4 ? 'High' : 'Medium',
+  impact: offset < 4 ? 'High' : 'Medium',
   url: item.url
 })));
 
 const byUrl = new Map();
-for (const story of [...existing.stories, ...fresh]) {
+for (const story of [...existingToday.stories, ...fresh]) {
   if (story.url) byUrl.set(story.url, story);
 }
-const enriched = await Promise.all([...byUrl.values()].map(async (story) => story.summary?.trim() ? story : { ...story, summary: await fetchArticleSummary(story) }));
-const stories = enriched.sort((a, b) => `${b.date} ${b.time}`.localeCompare(`${a.date} ${a.time}`));
-await writeFile('data/news.json', JSON.stringify({ updatedAt: now.toISOString(), stories }, null, 2) + '\n');
-console.log(`Saved ${fresh.length} fresh stories; archive now contains ${stories.length} stories.`);
+const stories = [...byUrl.values()]
+  .sort((a, b) => `${b.time || ''}`.localeCompare(`${a.time || ''}`))
+  .map((story, index) => ({ ...story, id: `${today}-${index}` })); // re-sequence ids so they stay unique within the file
+
+await writeFile(todayFile, JSON.stringify({ date: today, generatedAt: now.toISOString(), stories }, null, 2) + '\n');
+console.log(`Saved ${fresh.length} fresh stories to ${todayFile}; today's file now has ${stories.length} stories. Previous days were not touched.`);

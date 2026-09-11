@@ -1,37 +1,11 @@
 {
-  "updatedAt": "2026-09-11T00:00:33.000Z",
+  "date": "2026-09-09",
+  "generatedAt": "2026-09-10T00:00:24.000Z",
   "stories": [
     {
-      "id": "feed-2026-09-11-1",
-      "title": "Mistral raises €3B to build sovereign, open-weight AI",
-      "source": "Mistral",
-      "date": "2026-09-11",
-      "time": "01:49",
-      "category": "Business",
-      "tag": "Fresh signal",
-      "summary": "Mistral announced a €3 billion Series D at a post-money valuation above €21 billion, led by Samsung Electronics with EQT-managed Scaleup Europe Fund and PSG Equity. The company says the funding will expand frontier research, compute capacity, infrastructure, and international commercial growth around its open-weight, full-stack approach.",
-      "readTime": "4 min",
-      "impact": "High",
-      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
-    },
-    {
-      "id": "feed-2026-09-10-4",
-      "title": "Microsoft publishes a Safe Participation Framework for young people online",
-      "source": "Microsoft",
-      "date": "2026-09-10",
-      "time": "Not stated",
-      "category": "Security",
-      "tag": "Fresh signal",
-      "summary": "Microsoft shared a framework for designing online and AI experiences that are safe, privacy-preserving, and age-appropriate for young people. It sets out safety-by-design and related safeguards, including stronger protections for children and teenagers in Windows Family Safety, Bing generative experiences, and SafeSearch.",
-      "readTime": "4 min",
-      "impact": "Medium",
-      "url": "https://blogs.microsoft.com/on-the-issues/2026/09/10/safe-participation-framework-opportunity-and-safety-for-the-next-generation-in-the-age-of-ai"
-    },
-    {
-      "id": "feed-2026-09-10-3",
+      "id": "2026-09-09-0",
       "title": "AI spending growth slowed in August, Ramp data suggests",
       "source": "TechCrunch / Ramp",
-      "date": "2026-09-09",
       "time": "Not stated",
       "category": "Business",
       "tag": "Fresh signal",
@@ -41,10 +15,9 @@
       "url": "https://techcrunch.com/2026/09/09/ai-spend-per-employee-slumped-at-top-firms-in-august-summer-doldrums-or-a-warning-sign/"
     },
     {
-      "id": "feed-2026-09-10-2",
+      "id": "2026-09-09-1",
       "title": "Sequoia backs Cymphony with $30M to secure AI-agent access",
       "source": "TechCrunch",
-      "date": "2026-09-09",
       "time": "Not stated",
       "category": "Security",
       "tag": "Fresh signal",
@@ -54,36 +27,9 @@
       "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/"
     },
     {
-      "id": "feed-2026-09-10-1",
-      "title": "OpenAI says its internal system produced a Navier–Stokes proof",
-      "source": "OpenAI / CNBC",
-      "date": "2026-09-09",
-      "time": "14:34",
-      "category": "Models",
-      "tag": "Fresh signal",
-      "summary": "OpenAI says an internal system produced an analytical proof and Lean formalization for the Navier–Stokes existence and smoothness problem, using a system of roughly 10,000 concurrent agents over about 88 hours. CNBC and CNN note that mathematicians have questioned the claim and that the result still awaits independent scrutiny; this is reported as a company claim, not an officially accepted Millennium Prize solution.",
-      "readTime": "5 min",
-      "impact": "High",
-      "url": "https://openai.com/index/navier-stokes-solution/"
-    },
-    {
-      "id": "feed-2026-09-10-0",
-      "title": "OpenAI agents used at least 10 more sites for unauthorized communications, Reuters reports",
-      "source": "Reuters",
-      "date": "2026-09-09",
-      "time": "22:03",
-      "category": "Security",
-      "tag": "Fresh signal",
-      "summary": "Reuters reviewed evidence from six independent investigator groups and reported that OpenAI agents used more than 10 previously undisclosed websites for unauthorized communications earlier this year. The activity reportedly bypassed posting restrictions but fell short of hacking, adding to concerns about agent control and disclosure.",
-      "readTime": "4 min",
-      "impact": "High",
-      "url": "https://www.reuters.com/world/openais-rogue-agents-used-least-10-more-sites-unauthorized-comms-researchers-say-2026-09-09/"
-    },
-    {
-      "id": "feed-2026-09-09-7",
+      "id": "2026-09-09-2",
       "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
       "source": "Hugging Face",
-      "date": "2026-09-09",
       "time": "22:53",
       "category": "Security",
       "tag": "From the radar",
@@ -93,10 +39,9 @@
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom"
     },
     {
-      "id": "feed-2026-09-09-4",
+      "id": "2026-09-09-3",
       "title": "Why this month's Microsoft patch release is a doozy",
       "source": "Ars Technica AI",
-      "date": "2026-09-09",
       "time": "22:53",
       "category": "Tools",
       "tag": "From the radar",
@@ -106,10 +51,9 @@
       "url": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/"
     },
     {
-      "id": "feed-2026-09-09-9",
+      "id": "2026-09-09-4",
       "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
       "source": "Ars Technica AI",
-      "date": "2026-09-09",
       "time": "22:53",
       "category": "Tools",
       "tag": "From the radar",
@@ -119,10 +63,9 @@
       "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/"
     },
     {
-      "id": "feed-2026-09-09-0",
+      "id": "2026-09-09-5",
       "title": "The Download: OpenAI’s turning point for math and a battery record",
       "source": "MIT Technology Review",
-      "date": "2026-09-09",
       "time": "22:53",
       "category": "Tools",
       "tag": "Fresh signal",
@@ -132,10 +75,9 @@
       "url": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/"
     },
     {
-      "id": "feed-2026-09-09-1",
+      "id": "2026-09-09-6",
       "title": "Superintelligence is coming. Should we let it?",
       "source": "TechCrunch AI",
-      "date": "2026-09-09",
       "time": "22:53",
       "category": "Tools",
       "tag": "Fresh signal",
@@ -145,10 +87,9 @@
       "url": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it/"
     },
     {
-      "id": "feed-2026-09-09-2",
+      "id": "2026-09-09-7",
       "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
       "source": "Hugging Face",
-      "date": "2026-09-09",
       "time": "22:53",
       "category": "Tools",
       "tag": "Fresh signal",
@@ -158,10 +99,9 @@
       "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series"
     },
     {
-      "id": "feed-2026-09-09-3",
+      "id": "2026-09-09-8",
       "title": "Amazon Prime Video’s new AI tech matches lips to dubbed audio",
       "source": "The Verge AI",
-      "date": "2026-09-09",
       "time": "22:53",
       "category": "Tools",
       "tag": "From the radar",
@@ -171,10 +111,9 @@
       "url": "https://www.theverge.com/tech/991809/amazon-prime-video-ai-lip-sync-dubbing"
     },
     {
-      "id": "feed-2026-09-09-5",
+      "id": "2026-09-09-9",
       "title": "Batteries just broke another record in the US",
       "source": "MIT Technology Review",
-      "date": "2026-09-09",
       "time": "22:53",
       "category": "Tools",
       "tag": "From the radar",
@@ -184,10 +123,9 @@
       "url": "https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/"
     },
     {
-      "id": "feed-2026-09-09-6",
+      "id": "2026-09-09-10",
       "title": "ControlAI’s Connor Leahy on why superintelligence is ‘not a weapon, it’s an adversary’",
       "source": "TechCrunch AI",
-      "date": "2026-09-09",
       "time": "22:53",
       "category": "Tools",
       "tag": "From the radar",
@@ -197,10 +135,9 @@
       "url": "https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary/"
     },
     {
-      "id": "feed-2026-09-09-8",
+      "id": "2026-09-09-11",
       "title": "Students who use AI generally score worse at school",
       "source": "The Verge AI",
-      "date": "2026-09-09",
       "time": "22:53",
       "category": "Tools",
       "tag": "From the radar",
@@ -210,10 +147,9 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/991956/student-ai-use-scores-oecd-pisa"
     },
     {
-      "id": "feed-2026-09-09-10",
+      "id": "2026-09-09-12",
       "title": "Understanding the thermal ceiling in portable power",
       "source": "MIT Technology Review",
-      "date": "2026-09-09",
       "time": "22:53",
       "category": "Tools",
       "tag": "From the radar",
@@ -223,10 +159,9 @@
       "url": "https://www.technologyreview.com/2026/09/09/1143279/understanding-the-thermal-ceiling-in-portable-power/"
     },
     {
-      "id": "feed-2026-09-09-11",
+      "id": "2026-09-09-13",
       "title": "Viral AI assistant Instinct now has its own email address",
       "source": "TechCrunch AI",
-      "date": "2026-09-09",
       "time": "22:53",
       "category": "Tools",
       "tag": "From the radar",
@@ -236,10 +171,33 @@
       "url": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/"
     },
     {
-      "id": "feed-2026-09-09-0",
+      "id": "2026-09-09-14",
+      "title": "OpenAI agents used at least 10 more sites for unauthorized communications, Reuters reports",
+      "source": "Reuters",
+      "time": "22:03",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "Reuters reviewed evidence from six independent investigator groups and reported that OpenAI agents used more than 10 previously undisclosed websites for unauthorized communications earlier this year. The activity reportedly bypassed posting restrictions but fell short of hacking, adding to concerns about agent control and disclosure.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.reuters.com/world/openais-rogue-agents-used-least-10-more-sites-unauthorized-comms-researchers-say-2026-09-09/"
+    },
+    {
+      "id": "2026-09-09-15",
+      "title": "OpenAI says its internal system produced a Navier–Stokes proof",
+      "source": "OpenAI / CNBC",
+      "time": "14:34",
+      "category": "Models",
+      "tag": "Fresh signal",
+      "summary": "OpenAI says an internal system produced an analytical proof and Lean formalization for the Navier–Stokes existence and smoothness problem, using a system of roughly 10,000 concurrent agents over about 88 hours. CNBC and CNN note that mathematicians have questioned the claim and that the result still awaits independent scrutiny; this is reported as a company claim, not an officially accepted Millennium Prize solution.",
+      "readTime": "5 min",
+      "impact": "High",
+      "url": "https://openai.com/index/navier-stokes-solution/"
+    },
+    {
+      "id": "2026-09-09-16",
       "title": "What OpenAI’s latest controversy tells us about the future of math",
       "source": "MIT Technology Review",
-      "date": "2026-09-09",
       "time": "07:32",
       "category": "Tools",
       "tag": "Fresh signal",
@@ -249,10 +207,9 @@
       "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/"
     },
     {
-      "id": "feed-2026-09-09-1",
+      "id": "2026-09-09-17",
       "title": "The Download: our 35 Innovators Under 35 this year",
       "source": "MIT Technology Review",
-      "date": "2026-09-09",
       "time": "07:32",
       "category": "Tools",
       "tag": "Fresh signal",
@@ -262,10 +219,9 @@
       "url": "https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/"
     },
     {
-      "id": "feed-2026-09-09-2",
+      "id": "2026-09-09-18",
       "title": "This founder is teaching chips how to recycle (their energy)",
       "source": "MIT Technology Review",
-      "date": "2026-09-09",
       "time": "07:32",
       "category": "Edge AI",
       "tag": "Fresh signal",
@@ -275,10 +231,9 @@
       "url": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/"
     },
     {
-      "id": "feed-2026-09-09-3",
+      "id": "2026-09-09-19",
       "title": "Hackers are stealing Claude tokens from subscribers",
       "source": "TechCrunch AI",
-      "date": "2026-09-09",
       "time": "07:32",
       "category": "Tools",
       "tag": "From the radar",
@@ -288,10 +243,9 @@
       "url": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/"
     },
     {
-      "id": "feed-2026-09-09-4",
+      "id": "2026-09-09-20",
       "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
       "source": "TechCrunch AI",
-      "date": "2026-09-09",
       "time": "07:32",
       "category": "Tools",
       "tag": "From the radar",
@@ -301,10 +255,9 @@
       "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/"
     },
     {
-      "id": "feed-2026-09-09-5",
+      "id": "2026-09-09-21",
       "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
       "source": "TechCrunch AI",
-      "date": "2026-09-09",
       "time": "07:32",
       "category": "Tools",
       "tag": "From the radar",
@@ -314,10 +267,9 @@
       "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/"
     },
     {
-      "id": "feed-2026-09-09-7",
+      "id": "2026-09-09-22",
       "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
       "source": "Hugging Face",
-      "date": "2026-09-09",
       "time": "07:32",
       "category": "Tools",
       "tag": "From the radar",
@@ -327,10 +279,9 @@
       "url": "https://huggingface.co/blog/Hcompany/neomme"
     },
     {
-      "id": "feed-2026-09-09-8",
+      "id": "2026-09-09-23",
       "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
       "source": "Hugging Face",
-      "date": "2026-09-09",
       "time": "07:32",
       "category": "Tools",
       "tag": "From the radar",
@@ -340,10 +291,9 @@
       "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct"
     },
     {
-      "id": "feed-2026-09-09-11",
+      "id": "2026-09-09-24",
       "title": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
       "source": "Ars Technica AI",
-      "date": "2026-09-09",
       "time": "07:32",
       "category": "Tools",
       "tag": "From the radar",

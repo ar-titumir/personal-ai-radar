@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-10T00:30:00.000Z",
+  "stories": [
+    {
+      "id": "2026-09-10-0",
+      "title": "NSA, CISA and FBI accuse six Chinese AI firms of industrial-scale model distillation",
+      "source": "CISA / Unite.AI",
+      "time": "09:10",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "A joint advisory (AA26-251A) from the NSA, CISA and FBI accuses DeepSeek, Alibaba, Moonshot AI, MiniMax, StepFun and Z.AI of running coordinated distillation campaigns against Claude, GPT, Gemini and Grok since late 2024 to harvest reasoning and coding capability into their own models. The agencies frame this as core strategy rather than routine research, and ask US providers to watch for behavioral tells such as nonstop high-volume usage and shared accounts hitting max throughput immediately, rather than relying on a simple ban list.",
+      "readTime": "5 min",
+      "impact": "High",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a"
+    },
+    {
+      "id": "2026-09-10-1",
+      "title": "Qualcomm signs multi-generation AI silicon deal with AWS, first Western hyperscaler win",
+      "source": "TechTimes / Reuters",
+      "time": "08:40",
+      "category": "Business",
+      "tag": "Fresh signal",
+      "summary": "Qualcomm and Amazon Web Services announced a multi-generation collaboration to co-develop custom AI-inference silicon and optical interconnects reaching 1.6 terabits per second. AWS granted Qualcomm's counterpart a warrant for up to 25 million Qualcomm shares that vests only if Amazon spends up to $60 billion on the chips, networking hardware and manufacturing over the next decade. Qualcomm's CFO said production chips already exist and revenue starts in the December 2026 quarter, marking its first big push into hyperscale data centers outside its handset business.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.techtimes.com/articles/326993/20260908/qualcomm-wins-first-western-hyperscaler-aws-deal-pays-60b-inference-silicon.htm"
+    },
+    {
+      "id": "2026-09-10-2",
+      "title": "New chip design lets edge AI hardware recycle its own waste heat",
+      "source": "Tech Xplore",
+      "time": "07:15",
+      "category": "Edge AI",
+      "tag": "Fresh signal",
+      "summary": "Researchers on the European CONVOLVE project describe chip-design techniques that let AI accelerators run locally on phones and laptops while reusing heat that would normally be wasted, improving the energy efficiency of on-device inference. The team argues local, on-device AI needs computing hubs that are both fast and power-frugal, since every extra watt spent on cooling directly limits how much a battery-powered or fanless edge device can do.",
+      "readTime": "4 min",
+      "impact": "Medium",
+      "url": "https://techxplore.com/news/2026-09-powerful-ai-edge.html"
+    }
+  ]
+}
