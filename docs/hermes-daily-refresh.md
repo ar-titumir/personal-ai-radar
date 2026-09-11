@@ -32,7 +32,7 @@ Work in the Personal_dashboard repository. This is the daily editorial update.
    { "date": "<today>", "generatedAt": "<ISO timestamp>", "stories": [
      { "id": "<today>-<index>", "title", "source", "time" (HH:MM, Asia/Dhaka),
        "category" (one of: Edge AI, Security, Models, Tools, Devices,
-       Business), "tag" ("Fresh signal" for the day's top few, "From the
+       Business, Robotics), "tag" ("Fresh signal" for the day's top few, "From the
        radar" otherwise), "summary", "readTime", "impact" (High/Medium/Low),
        "url" (https, safe, real) } ] }
    Deduplicate by url. Re-sequence `id` as "<today>-0", "<today>-1", ... after

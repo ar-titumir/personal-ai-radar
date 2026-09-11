@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-11T12:01:20.000Z",
+  "stories": [
+    {
+      "id": "2026-09-11-0",
+      "title": "Salesforce introduces an enterprise AI harness and control plane for agents",
+      "source": "Salesforce",
+      "time": "18:01",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "Salesforce is packaging shared business context, agent actions, model routing, governance, and security into a reusable enterprise AI harness. Its proposed AI Control Plane would give companies one place to register agents, manage identity and policy, evaluate behavior, observe outcomes, and control cost across Salesforce and third-party systems. The signal for service providers is that enterprise AI work is moving beyond isolated chatbots toward integration, permissions, monitoring, and operational controls.",
+      "readTime": "5 min",
+      "impact": "High",
+      "url": "https://www.salesforce.com/ap/news/press-releases/2026/09/11/ph-salesforce-introduces-the-trusted-enterprise-ai-harness/"
+    },
+    {
+      "id": "2026-09-11-1",
+      "title": "OpenAI opens its Codex-style Agents API to public beta",
+      "source": "OpenAI",
+      "time": "18:01",
+      "category": "Tools",
+      "tag": "Fresh signal",
+      "summary": "OpenAI’s new Agents API exposes the long-running harness behind Codex as a managed platform for building cloud agents. It handles context, tools, files, code execution, sandbox environments, and parallel subagents while allowing developers to choose hosted or external compute. This lowers the amount of orchestration infrastructure an agency must build, but makes observability, permissions, environment isolation, and cost controls important parts of any production implementation.",
+      "readTime": "5 min",
+      "impact": "High",
+      "url": "https://openai.com/index/introducing-the-agents-api/"
+    },
+    {
+      "id": "2026-09-11-2",
+      "title": "GPT-Live-1 brings full-duplex voice agents to the API",
+      "source": "OpenAI",
+      "time": "18:01",
+      "category": "Models",
+      "tag": "Fresh signal",
+      "summary": "OpenAI has released GPT-Live-1 through its API for applications that need natural, interruptible voice conversations. The model can listen and speak concurrently, handle background noise, delegate deeper reasoning and tool calls to other models, and support telephone workflows. The front-end voice layer is priced at $0.05 per minute, creating a practical entry point for customer support, scheduling, language learning, and other service workflows that need a human-like voice interface.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/"
+    },
+    {
+      "id": "2026-09-11-3",
+      "title": "OpenAI and the US government expand discounted AI and cyber-defense access",
+      "source": "OpenAI",
+      "time": "18:01",
+      "category": "Business",
+      "tag": "From the radar",
+      "summary": "OpenAI and the US General Services Administration announced a multi-year arrangement extending discounted access beyond federal agencies to state, local, and tribal governments. The offer removes the platform license fee, discounts usage, and includes cyber-defense access, training, onboarding, spend controls, and adoption support. The commercial lesson is that public-sector AI deals depend not only on model capability, but also procurement structure, enablement, security controls, and ongoing implementation services.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://openai.com/index/expanding-ai-access-us-government/"
+    },
+    {
+      "id": "2026-09-11-4",
+      "title": "Arduino shows how its VENTUNO Q can run an autonomous mobile robot locally",
+      "source": "Arduino",
+      "time": "18:01",
+      "category": "Robotics",
+      "tag": "Fresh signal",
+      "summary": "Arduino’s new walkthrough uses the VENTUNO Q to illustrate a complete on-device perception-to-action loop for autonomous mobile robots. The board’s Linux-capable AI processor can run ROS 2, navigation, computer vision, and model inference, while its STM32 microcontroller handles wheel control, encoder feedback, sensors, and motor communication deterministically. The architecture is relevant to physical-AI service work because a prototype can combine local intelligence and real-time control without relying on a cloud round trip.",
+      "readTime": "4 min",
+      "impact": "Medium",
+      "url": "https://blog.arduino.cc/2026/09/11/building-smarter-amrs-with-the-arduino-ventuno-q-board"
+    }
+  ]
+}

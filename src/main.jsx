@@ -35,7 +35,7 @@ const loadDay = async (date) => {
 };
 
 const RECENT_WINDOW = 3;
-const PRIORITY_CATEGORIES = new Set(['Edge AI', 'Security']);
+const PRIORITY_CATEGORIES = new Set(['Edge AI', 'Security', 'Robotics']);
 
 const nav = [
   { label: 'Today', icon: LayoutDashboard },
@@ -44,8 +44,8 @@ const nav = [
   { label: 'Saved', icon: Bookmark },
   { label: 'Roadmap', icon: Map },
 ];
-const categories = ['All signals', 'Edge AI', 'Models', 'Tools', 'Security', 'Devices', 'Business'];
-const signalColors = { 'Edge AI': 'teal', Security: 'rose', Tools: 'violet', Models: 'blue', Devices: 'amber', Business: 'green' };
+const categories = ['All signals', 'Edge AI', 'Models', 'Tools', 'Security', 'Devices', 'Business', 'Robotics'];
+const signalColors = { 'Edge AI': 'teal', Security: 'rose', Tools: 'violet', Models: 'blue', Devices: 'amber', Business: 'green', Robotics: 'amber' };
 const safeHttpUrl = (value) => { try { const url = new URL(value); return ['http:', 'https:'].includes(url.protocol) ? url.href : '#'; } catch { return '#'; } };
 const feedbackRepo = import.meta.env.VITE_GITHUB_REPO || 'ar-titumir/personal-ai-radar';
 const BD_TIME_ZONE = 'Asia/Dhaka';

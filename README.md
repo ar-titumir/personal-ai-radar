@@ -33,7 +33,7 @@ The frontend discovers every day file at build time with `import.meta.glob('../d
 
 ### What the site shows
 
-- **Default view ("Today")**: the latest 3 day-files, merged, most recent day first. Within a day, **Edge AI and Security** stories float to the top — the standing "special priority" lens from the original brief.
+- **Default view ("Today")**: the latest 3 day-files, merged, most recent day first. Within a day, **Edge AI, Security, and Robotics** stories float to the top — the standing priority lens.
 - **Browsing older news**: the date dropdown (or the ‹ › arrows next to it) loads any archived day on demand and shows just that day.
 - **Saved**: bookmarks a story for the session across whatever days have been loaded so far (client-side only, no backend).
 
