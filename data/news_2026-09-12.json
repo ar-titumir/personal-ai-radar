@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-12",
+  "generatedAt": "2026-09-12T06:02:00+06:00",
+  "stories": [
+    {
+      "id": "2026-09-12-0",
+      "title": "Qualcomm details a larger NPU for on-device agentic AI",
+      "source": "Android Headlines / Qualcomm",
+      "time": "05:00",
+      "category": "Edge AI",
+      "tag": "Fresh signal",
+      "summary": "Qualcomm has described the Hexagon NPU planned for its Snapdragon 8 Elite Gen 6 Pro ahead of the chip\u2019s September 22 reveal. The design adds an Element Accelerator for transformer workloads, increases shared memory by 50%, and is claimed to run mixture-of-experts models with up to 30 billion parameters; Qualcomm also claims up to 50% faster prefill for some models. If the claims hold in shipping hardware, phone makers and integrators will have more room to keep agent context and inference on-device rather than sending every step to the cloud.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.androidheadlines.com/2026/09/snapdragon-8-elite-gen-6-pro-npu-major-agentic-ai-upgrade.html"
+    },
+    {
+      "id": "2026-09-12-1",
+      "title": "ESET describes an attack that used a safety prompt to disrupt malware analysis",
+      "source": "Dark Reading / ESET",
+      "time": "05:00",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "ESET reported that Russia-aligned UAC-0099 embedded a nuclear-weapon request in a malicious VBScript comment to trigger an AI safety response and interfere with automated malware analysis. The incident shows that defensive AI systems can themselves be manipulated by hostile inputs, not just used by attackers to generate code. Security teams deploying AI-assisted triage therefore need layered controls, human review, and telemetry that detects when model refusal or altered reasoning is being induced by untrusted content.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.darkreading.com/cyber-risk/ai-governance-cannot-wait"
+    },
+    {
+      "id": "2026-09-12-2",
+      "title": "Faye packages Claude rollout as fixed-scope implementation plus managed service",
+      "source": "Faye / PR Newswire",
+      "time": "05:00",
+      "category": "Business",
+      "tag": "Fresh signal",
+      "summary": "Faye launched Claude Implementation Services for mid-market and enterprise customers, combining strategy workshops, governed rollout, systems integration, training, custom skills, and ongoing support. The offer is deliberately modular: a one- or two-day roadmap workshop, a fixed-scope jumpstart, or Axia managed services with a dedicated coach and recurring advisory and development hours. This is a concrete services benchmark for agencies because it ties AI deployment to explicit scope, adoption work, and a recurring subscription instead of treating model access as the whole product.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.prnewswire.com/news-releases/faye-launches-claude-implementation-services-taking-businesses-from-ai-roadmap-to-governed-rollout-302867583.html"
+    },
+    {
+      "id": "2026-09-12-3",
+      "title": "Norbert Health raises 4M for robotic nursing assistants already used in care facilities",
+      "source": "Norbert Health / PR Newswire",
+      "time": "05:00",
+      "category": "Robotics",
+      "tag": "Fresh signal",
+      "summary": "Norbert Health raised a 4 million Series A to expand its physical-AI control system for nursing assistants running on partner robot platforms. The company says its systems are already live in skilled nursing facilities, making rounds, collecting contactless vitals, running assessments, handling requests, and documenting encounters in electronic health records; it reports hundreds of patients daily, 96% patient acceptance, and 82% monitoring compliance. The important commercial detail is the software-and-operations layer around existing hardware, including clinical protocols, EHR integration, reimbursement infrastructure, and future regulatory work, which creates a clearer deployment and service opportunity than a prototype demo.",
+      "readTime": "5 min",
+      "impact": "High",
+      "url": "https://www.prnewswire.com/news-releases/norbert-health-raises-14-million-series-a-to-power-autonomous-robotic-nursing-assistants-302865486.html"
+    }
+  ]
+}
