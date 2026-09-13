@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-13",
+  "generatedAt": "2026-09-13T06:00:00+06:00",
+  "stories": [
+    {
+      "id": "2026-09-13-0",
+      "title": "Samsung SDS and Walden Robotics target manufacturing sites with robot orchestration",
+      "source": "Samsung SDS / Chosun",
+      "time": "06:00",
+      "category": "Robotics",
+      "tag": "Fresh signal",
+      "summary": "Samsung SDS formally entered the Robot Transformation business and signed a strategic investment and collaboration agreement with Walden Robotics. The companies will identify manufacturing use cases and validate the technology, while Samsung SDS plans a robot-orchestration platform for coordinating equipment and robots from different manufacturers. This is a deployment-oriented partnership around factory integration and interoperability, not a standalone robot demo; the service layer includes site assessment, systems integration, orchestration, and operational support.",
+      "readTime": "5 min",
+      "impact": "High",
+      "url": "https://waldenrobotics.com/news/walden-samsung-sds-partnership"
+    },
+    {
+      "id": "2026-09-13-1",
+      "title": "Cleveland Clinic and Luminai co-develop AI automation for referral processing",
+      "source": "Cleveland Clinic",
+      "time": "06:00",
+      "category": "Business",
+      "tag": "From the radar",
+      "summary": "Cleveland Clinic and Luminai announced a partnership to co-develop AI automation for complex health-system administration, beginning with fax referral processing. Luminai’s system identifies referrals, interprets their clinical context, matches patient and order type, and transcribes information into the electronic medical record, while forward-deployed engineers work with clinical and operational staff instead of applying a standard configuration. The engagement is a useful benchmark for enterprise services: start with a specific workflow, integrate with the system of record, and keep implementation specialists alongside the customer to expand into adjacent processes.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://newsroom.clevelandclinic.org/2026/09/09/cleveland-clinic-partners-with-luminai-to-transform-health-system-operations"
+    },
+    {
+      "id": "2026-09-13-2",
+      "title": "Accenture and Google Cloud create a 1,000-engineer Gemini deployment group",
+      "source": "Accenture / Google Cloud",
+      "time": "06:00",
+      "category": "Business",
+      "tag": "From the radar",
+      "summary": "Accenture and Google Cloud launched a Gemini Enterprise business group that combines certified professionals, Google Cloud engineering talent, industry specialists, and co-developed implementation assets. The group plans to establish a 1,000-person forward-deployed engineer workforce and build repeatable industry-specific solutions, with work spanning smaller implementations through enterprise reinvention. The commercial model reinforces the value of embedded delivery capacity, reusable accelerators, training, and adoption support when customers struggle to move agentic AI pilots into production.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-deepen-partnership-with-formation-of-new-accenture-gemini-enterprise-business-group"
+    }
+  ]
+}
