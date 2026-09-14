@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-14",
+  "generatedAt": "2026-09-14T06:00:00+06:00",
+  "stories": [
+    {
+      "id": "2026-09-14-0",
+      "title": "South Korea broadens espionage law to protect semiconductor and AI technology",
+      "source": "Reuters / The Business Standard",
+      "time": "05:45",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "South Korea’s revised Criminal Act took effect on September 13, extending espionage offences beyond activity benefiting North Korea to cover foreign countries and equivalent organisations. The new offence carries a minimum three-year prison sentence, while the National Intelligence Service says the change will strengthen protection for strategic technologies including semiconductors, displays, batteries, and AI. For companies deploying AI hardware or models across borders, the change raises the importance of trade-secret controls, access logging, supplier due diligence, and incident-response plans for industrial IP.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.tbsnews.net/worldbiz/asia/south-koreas-expanded-espionage-law-takes-effect-amid-push-protect-chip-technology"
+    },
+    {
+      "id": "2026-09-14-1",
+      "title": "Ivanti discloses new product vulnerabilities after using LLMs in security testing",
+      "source": "Ivanti",
+      "time": "05:20",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "Ivanti disclosed vulnerabilities in Neurons for ITSM, Endpoint Manager Mobile, and Sentry in its September security update, while stating that it has no evidence of exploitation in the wild and that other Ivanti products are unaffected. The company says its product-security red teams are using multiple advanced language models to find issues that traditional SAST and DAST tooling missed, with human review retained for automated or agentic work. The practical signal is that AI-assisted testing is becoming part of a disclosure and remediation loop, not a substitute for accountable security engineering.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.ivanti.com/blog/september-2026-security-update"
+    },
+    {
+      "id": "2026-09-14-2",
+      "title": "Agencies are adding AI governance clauses to client contracts as delivery models change",
+      "source": "Digiday",
+      "time": "05:00",
+      "category": "Business",
+      "tag": "From the radar",
+      "summary": "Digiday reports that agencies are updating master service agreements incrementally as clients ask about proprietary AI tools, data handling, generated-content ownership, brand safety, human oversight, indemnity, and disclosure of the systems used in delivery. Executives from Mile Marker, Go Fish, Crispin, and VML describe addenda and client-specific clauses rather than a settled industry-wide contract format, partly because agencies are experimenting with SaaS-like proprietary tools while still being paid through familiar service arrangements. This is a useful services-market benchmark: an AI agency needs a repeatable policy and contract package covering data, IP, tool transparency, usage costs, and accountability before it sells automation at scale.",
+      "readTime": "4 min",
+      "impact": "Medium",
+      "url": "https://digiday.com/marketing/ai-reshapes-agency-economics-but-their-contracts-are-still-scrambling-to-catch-up/"
+    }
+  ]
+}
