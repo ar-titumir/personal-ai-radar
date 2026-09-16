@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-16",
+  "generatedAt": "2026-09-16T10:50:00+06:00",
+  "stories": [
+    {
+      "title": "Ambarella launches X7 accelerator to add physical AI to existing systems",
+      "source": "Ambarella",
+      "time": "19:00",
+      "category": "Edge AI",
+      "tag": "Fresh signal",
+      "summary": "Ambarella announced X7, a standalone CVflow edge-AI accelerator that works as a co-processor for Arm and x86 hosts over PCIe or USB. The company says it is designed for cameras, gateways, industrial controllers, robots, drones, and other installed systems that need new AI capability without a full platform redesign; sampling is underway and the target power envelope is 2–5 watts. The practical opportunity is retrofit work: integrators can add local vision, multimodal inference, and natural-language interfaces to equipment already deployed in factories, retail, security, and infrastructure.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.ambarella.com/news/ambarella-launches-x7-its-first-standalone-ai-accelerator-to-add-physical-ai-to-any-host-processor/",
+      "id": "2026-09-16-0"
+    },
+    {
+      "title": "Exein raises $270 million to secure robots and other physical AI devices",
+      "source": "Tech Startups",
+      "time": "—",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "Rome-based Exein announced a $270 million round at a reported $1.7 billion valuation to secure software running inside robots, autonomous vehicles, drones, medical equipment, and other connected machines. Its Photon architecture operates at kernel/runtime level, while the company says it is building security agents and a foundation model from telemetry across more than two billion devices; the agentic architecture is planned for late 2026 and the foundation models for 2027. This is a strong signal that physical-AI deployments will need embedded threat detection, firmware assurance, patching, monitoring, and incident response—not only cloud security reviews.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://techstartups.com/2026/09/15/exein-raises-270m-at-1-7b-valuation-to-secure-robots-autonomous-vehicles-and-physical-ai/",
+      "id": "2026-09-16-1"
+    },
+    {
+      "title": "Universal Robots unveils Gen 7 platform for AI-ready industrial automation",
+      "source": "RoboticsTomorrow",
+      "time": "—",
+      "category": "Robotics",
+      "tag": "Fresh signal",
+      "summary": "Universal Robots introduced Gen 7, a redesigned cobot platform with new g-Series arms, a smaller and more capable controller, an AI-ready tool flange, force-torque sensing, ROS2/open APIs, and PolyScope X software. The company says the platform is backed by more than 100,000 existing cobot deployments and is being shown with more than 20 ecosystem partners, including vision and gripper vendors. For an automation agency, the value is less in the robot alone than in deployment packages that connect sensing, MES/PLC systems, safety, application software, training, and ongoing maintenance.",
+      "readTime": "5 min",
+      "impact": "High",
+      "url": "https://www.roboticstomorrow.com/news/2026/09/15/universal-robots-unveils-gen-7-a-new-platform-for-industrial-automation-and-physical-ai-deployment/27099/",
+      "id": "2026-09-16-2"
+    },
+    {
+      "title": "AIUC raises $40 million to test and underwrite enterprise AI-agent risk",
+      "source": "TechCrunch",
+      "time": "19:00",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "Artificial Intelligence Underwriting Company (AIUC), founded by an early Anthropic employee and a former METR COO, announced a $40 million Series A led by Ribbit Capital. The company runs roughly 5,000 tests covering jailbreaks, hallucinations, data leaks, and other agent failure modes, then produces a report that humans verify; it names Cursor, Lovable, Harvey, and ElevenLabs among its customers. The business model points toward a services layer around agent assurance: independent evaluation, evidence for procurement and insurance, remediation, and repeat testing as models and workflows change.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/",
+      "id": "2026-09-16-3"
+    },
+    {
+      "title": "Meta introduces paid AI-focused plans for consumers, businesses, and creators",
+      "source": "TechCrunch",
+      "time": "23:05",
+      "category": "Business",
+      "tag": "From the radar",
+      "summary": "Meta introduced Meta One subscriptions with $7.99 Core and $19.99 Premium consumer tiers, plus business and creator plans starting at $14.99 and extending to a $499 Max tier. The packages increase access to Meta’s image, video, editing, voice, and creative AI tools, while Meta says future additions will include agent skills for marketing, business operations, content creation, and optimization. The move gives agencies a concrete pricing and distribution benchmark for AI-assisted marketing services, but the many tiers also make usage limits, workflow fit, and measurable outcomes important parts of any implementation proposal.",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "url": "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/",
+      "id": "2026-09-16-4"
+    }
+  ]
+}
