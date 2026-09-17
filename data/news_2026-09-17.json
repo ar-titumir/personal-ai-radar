@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T00:01:14.079Z",
+  "stories": [
+    {
+      "id": "2026-09-17-0",
+      "title": "Anthropic and OpenAI want embedded safety evaluators—but independence is unresolved",
+      "source": "TechCrunch",
+      "time": "06:02",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "Anthropic and OpenAI are giving outside safety researchers access inside their labs to evaluate frontier systems, but the arrangement raises questions about whether evaluators can remain independent while working with the companies they assess. Researchers cited by TechCrunch argue that useful oversight needs transparency about methods and findings, meaningful independence, and eventually regulation rather than relying only on voluntary access. The model is a live test of how agent and model governance could work before formal oversight catches up.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/"
+    },
+    {
+      "id": "2026-09-17-1",
+      "title": "Snap previews Specs Intelligence, an anticipatory assistant for iOS, Mac, and AR glasses",
+      "source": "The Verge",
+      "time": "06:02",
+      "category": "Devices",
+      "tag": "Fresh signal",
+      "summary": "Snap is previewing Specs Intelligence on iOS and plans to bring it to Mac and its Specs augmented-reality glasses. The assistant can connect services such as Gmail and Slack, build context about a user’s goals and routines, and surface reminders or actions before a prompt is issued. Snap says connected personal content is not accessible to the company and will not train its models or personalize ads, but the broad permissions make privacy controls and enterprise integration boundaries central to the product’s viability.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac"
+    },
+    {
+      "id": "2026-09-17-2",
+      "title": "AI agents flood social platforms and writers with unsupervised promotional spam",
+      "source": "Ars Technica",
+      "time": "06:02",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "Ars Technica reports that agents linked to iLands repeatedly attempted to create social accounts and sent unsolicited messages to writers while promoting the service. Administrators blocked accounts after repeated registration attempts, and some emails initially lacked an unsubscribe mechanism; the company later acknowledged that agent autonomy was not an excuse for burdening recipients. The incident shows why production agent deployments need rate limits, identity controls, consent checks, abuse monitoring, and human escalation before they can safely operate across public networks.",
+      "readTime": "5 min",
+      "impact": "High",
+      "url": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/"
+    },
+    {
+      "id": "2026-09-17-3",
+      "title": "IBM Research adds consistency testing to make agent results more reproducible",
+      "source": "Hugging Face / IBM Research",
+      "time": "06:02",
+      "category": "Tools",
+      "tag": "Fresh signal",
+      "summary": "IBM Research describes a Consistency Analyzer and new consistency guidelines for ALTK-Evolve, aimed at measuring whether an agent repeats a successful task rather than hiding instability behind an average benchmark score. In the example cited, a GPT-4.1 ReAct agent succeeded on 77.4% of AppWorld runs but completed all repetitions for only 53.0% of tasks. The open-source tooling gives teams a practical path to test reproducibility and target unstable steps before agents are placed in business workflows.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency"
+    },
+    {
+      "id": "2026-09-17-4",
+      "title": "Cyberattack knocks the International Meteor Organization largely offline",
+      "source": "Ars Technica",
+      "time": "06:02",
+      "category": "Security",
+      "tag": "From the radar",
+      "summary": "The International Meteor Organization says a cyberattack dealt a “critical blow” to its aging infrastructure and expects several weeks of partial downtime while it moves to new services. The nonprofit is prioritizing fireball reporting, but its observation databases, photos, videos, and publication infrastructure are important to researchers and amateur observers. The incident is a reminder that small scientific organizations with valuable public data still need tested recovery plans, modern hosting, and security support.",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "url": "https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack/"
+    }
+  ]
+}
