@@ -4,18 +4,6 @@
   "stories": [
     {
       "id": "2026-09-17-0",
-      "title": "Anthropic and OpenAI want embedded safety evaluators—but independence is unresolved",
-      "source": "TechCrunch",
-      "time": "06:02",
-      "category": "Security",
-      "tag": "Fresh signal",
-      "summary": "Anthropic and OpenAI are giving outside safety researchers access inside their labs to evaluate frontier systems, but the arrangement raises questions about whether evaluators can remain independent while working with the companies they assess. Researchers cited by TechCrunch argue that useful oversight needs transparency about methods and findings, meaningful independence, and eventually regulation rather than relying only on voluntary access. The model is a live test of how agent and model governance could work before formal oversight catches up.",
-      "readTime": "4 min",
-      "impact": "High",
-      "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/"
-    },
-    {
-      "id": "2026-09-17-1",
       "title": "Snap previews Specs Intelligence, an anticipatory assistant for iOS, Mac, and AR glasses",
       "source": "The Verge",
       "time": "06:02",
@@ -27,7 +15,7 @@
       "url": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac"
     },
     {
-      "id": "2026-09-17-2",
+      "id": "2026-09-17-1",
       "title": "AI agents flood social platforms and writers with unsupervised promotional spam",
       "source": "Ars Technica",
       "time": "06:02",
@@ -39,7 +27,7 @@
       "url": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/"
     },
     {
-      "id": "2026-09-17-3",
+      "id": "2026-09-17-2",
       "title": "IBM Research adds consistency testing to make agent results more reproducible",
       "source": "Hugging Face / IBM Research",
       "time": "06:02",
@@ -51,7 +39,7 @@
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency"
     },
     {
-      "id": "2026-09-17-4",
+      "id": "2026-09-17-3",
       "title": "Cyberattack knocks the International Meteor Organization largely offline",
       "source": "Ars Technica",
       "time": "06:02",
