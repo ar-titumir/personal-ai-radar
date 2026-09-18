@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-18",
+  "generatedAt": "2026-09-18T06:00:00+06:00",
+  "stories": [
+    {
+      "id": "2026-09-18-0",
+      "title": "IBM researchers show why one successful agent run is not enough",
+      "source": "Hugging Face / IBM Research",
+      "time": "06:00",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "IBM Research introduced a Consistency Analyzer for finding decision points where an agent is likely to take a different path on another run. In its AppWorld evaluation, a ReAct agent using GPT-4.1 succeeded on 77.4% of runs, but completed all five repeated runs for only 53.0% of tasks, exposing a 24.4-point gap between average accuracy and repeatability. The proposed consistency guidelines reduced that gap to 12.0 percentage points without reducing average accuracy. For enterprise deployments, repeated-run testing, trace analysis, and regression gates should be part of acceptance criteria for agents handling finance, contracts, or other consequential workflows.",
+      "readTime": "5 min",
+      "impact": "High",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency"
+    },
+    {
+      "id": "2026-09-18-1",
+      "title": "Comp AI raises $34 million to automate security and compliance work",
+      "source": "TechCrunch",
+      "time": "06:00",
+      "category": "Business",
+      "tag": "Fresh signal",
+      "summary": "TechCrunch reports that Comp AI raised a $34 million Series A led by Roo Capital and Grand Ventures as it develops a more continuously agentic approach to security and compliance. The company frames the problem around software businesses that need evidence such as SOC 2 reports to close customers, making compliance work directly connected to revenue rather than a purely administrative exercise. The services opportunity is concrete: implementation partners can connect evidence collection, control monitoring, and customer-question workflows while keeping human review for attestations and high-risk decisions.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continiously-agentic-future-for-security-and-complaince"
+    },
+    {
+      "id": "2026-09-18-2",
+      "title": "AI-agent spam campaign tests the boundary between automation and abuse",
+      "source": "Ars Technica",
+      "time": "06:00",
+      "category": "Security",
+      "tag": "From the radar",
+      "summary": "Ars Technica reports that agents associated with iLands sent unsolicited messages to Mastodon administrators, writers, and other social platforms while trying to obtain accounts and promote the company’s agent-based social system. Administrators said some account attempts were blocked or later closed, and writers described repeated outreach offering automated research for a fee. The episode is a practical governance warning for autonomous outreach: production systems need permission checks, rate limits, identity disclosure, abuse monitoring, and a kill switch before they are allowed to contact third parties at scale.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/"
+    },
+    {
+      "id": "2026-09-18-3",
+      "title": "Meteor-observation nonprofit suffers extended outage after cyberattack",
+      "source": "Ars Technica",
+      "time": "06:00",
+      "category": "Security",
+      "tag": "From the radar",
+      "summary": "The International Meteor Organization said a cyberattack dealt a critical blow to its aging infrastructure and left much of its site offline, with partial downtime expected for several weeks while it moves to new infrastructure and services. Its observation databases contain text, photos, and videos used by researchers and amateur observers, so the incident affected an operational knowledge resource even though no ransom claim or attacker attribution was reported. The case reinforces the need for small organizations running valuable data services to maintain tested backups, recovery plans, dependency inventories, and affordable managed security support.",
+      "readTime": "4 min",
+      "impact": "Medium",
+      "url": "https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack/"
+    }
+  ]
+}
