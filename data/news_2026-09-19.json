@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-19",
+  "generatedAt": "2026-09-19T06:00:24+06:00",
+  "stories": [
+    {
+      "id": "2026-09-19-0",
+      "title": "Anthropic brings Accenture\u2019s Faculty inside its frontier-model evaluation process",
+      "source": "Anthropic",
+      "time": "06:00",
+      "category": "Business",
+      "tag": "Fresh signal",
+      "summary": "Anthropic says Accenture\u2019s specialist AI business, Faculty, will work inside Anthropic on model evaluation, red-teaming, alignment assessments, and safeguard testing. The companies each expect to invest at least $1 billion in building capacity over five years, while Anthropic says the arrangement is non-exclusive and that standards for evaluator access and reporting are still unsettled. For enterprise AI services, this points to a higher-value offering than implementation alone: independent testing, evidence-backed assurance, and ongoing model-governance work that can sit alongside deployment teams.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
+    },
+    {
+      "id": "2026-09-19-1",
+      "title": "Meta launches Muse, a personal agent that can act across everyday services",
+      "source": "Meta",
+      "time": "06:00",
+      "category": "Devices",
+      "tag": "Fresh signal",
+      "summary": "Meta introduced Muse as a personal agent that can plan goals, browse, fill forms, send email, book travel, and continue working after a person closes the app. It runs in a dedicated Muse Secure VM, with a separate Sentinel agent approving internet access, permission controls for connected apps, approval gates for sensitive actions, and an audit trail of work performed and planned. The rollout makes secure execution environments, credential isolation, approval design, and operational monitoring practical integration concerns for any agency helping clients deploy action-taking assistants.",
+      "readTime": "5 min",
+      "impact": "High",
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent"
+    },
+    {
+      "id": "2026-09-19-2",
+      "title": "Google expands its AI-and-economy research program with new economists",
+      "source": "Google",
+      "time": "06:00",
+      "category": "Business",
+      "tag": "From the radar",
+      "summary": "Google announced a larger AI & Economy research program and added Philippe Aghion, Ajay Agrawal, Anu Madgavkar, and Daniel Rock to its advisory, visiting-fellow, and leadership work. The program will study AI adoption, productivity, labor-market change, technology diffusion, and scientific discovery, building on Google\u2019s AI & Economy ATLAS and its open-access site. For business leaders, the useful signal is a growing push to measure AI outcomes and workforce effects with empirical data rather than treating tool usage or model launches as evidence of transformation.",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench"
+    }
+  ]
+}
