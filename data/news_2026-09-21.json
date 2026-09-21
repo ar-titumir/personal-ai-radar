@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-21T06:01:37+06:00",
+  "stories": [
+    {
+      "id": "2026-09-21-0",
+      "title": "WSO2 releases open control plane for governing enterprise AI agents",
+      "source": "WSO2",
+      "time": "06:00",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "WSO2 says Agent Manager is now generally available as an open-source control plane for agents running across frameworks, models, and deployment environments. The release combines sandboxed execution, verifiable agent identity, MCP-level governance, OpenTelemetry tracing, evaluations, and lifecycle controls, with self-hosted or managed-SaaS deployment. For enterprise teams, the practical signal is that agent inventory, permissions, observability, and intervention are becoming a distinct operational layer rather than features left inside individual application projects.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://wso2.com/about/news/wso2-agent-manager-sovereign-ai-governance"
+    },
+    {
+      "id": "2026-09-21-1",
+      "title": "Anthropic maps a shift toward more autonomous AI-enabled cyberattacks",
+      "source": "Anthropic",
+      "time": "06:00",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "Anthropic\u2019s review of 832 accounts banned for malicious cyber activity finds that attackers are using AI increasingly deeper in the attack lifecycle, including account discovery and other post-compromise work. The report says AI can chain attack stages, make tactical decisions, and execute with limited human intervention, while the MITRE ATT&CK framework does not yet represent that agentic orchestration well. Defenders therefore need to monitor sequences and autonomy, not only count isolated techniques or judge risk from the attacker\u2019s apparent skill.",
+      "readTime": "5 min",
+      "impact": "High",
+      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack"
+    },
+    {
+      "id": "2026-09-21-2",
+      "title": "AWS open-sources Pizza Bot, an inbox for background AI-agent work",
+      "source": "AWS Open Source Blog",
+      "time": "06:00",
+      "category": "Tools",
+      "tag": "From the radar",
+      "summary": "AWS has released Pizza Bot, an Apache-2.0 open-source application that lets agents run in the background and return completed work or permission requests to an inbox. It is self-hosted, stores threads and state locally, supports several hosted model providers plus Ollama, and connects to MCP servers and the DeepAgents/LangGraph runtime. The project makes review queues and human approval part of the agent interface, while its community-project status means operators remain responsible for uptime, backups, updates, and the security of enabled tools.",
+      "readTime": "4 min",
+      "impact": "Medium",
+      "url": "https://aws.amazon.com/it/blogs/opensource/introducing-pizza-bot-an-open-source-inbox-for-ai-agents-that-work-in-the-background"
+    }
+  ]
+}
