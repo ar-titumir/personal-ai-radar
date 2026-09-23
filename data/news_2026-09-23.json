@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T06:00:00+06:00",
+  "stories": [
+    {
+      "id": "2026-09-23-0",
+      "title": "Alibaba unveils Zhenwu V900 chip alongside a 20GW data-center ambition",
+      "source": "The Register / Alibaba Cloud",
+      "time": "06:00",
+      "category": "Edge AI",
+      "tag": "Fresh signal",
+      "summary": "Alibaba Cloud said it plans to expand its global data-center fleet to 20GW and introduced the Zhenwu V900, a T-Head processor that Alibaba describes as three times faster than its predecessor. The published specifications include 216GB of memory and 1,200GB/s of inter-chip bandwidth, with support for FP32 through FP4 workloads, although the company did not say when the chip will enter production or when enough units will be available for its proposed clusters. The combination of accelerator supply, model training, and large-scale inference points to a continuing opportunity for deployment partners that can optimize models, power, cooling, and operations around non-Nvidia infrastructure.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://theregister.com/off-prem/2026/09/22/alibaba-cloud-plans-six-year-stroll-to-20gw-of-datacenters-reveals-chip-to-power-them/5298062"
+    },
+    {
+      "id": "2026-09-23-1",
+      "title": "Meta patches Muse zero-day, exposing the governance gap around personal agents",
+      "source": "VentureBeat / Meta / Objective-See",
+      "time": "06:00",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "A vulnerability in Meta’s Muse Mac app allowed malware already running as the user to redirect the transcription endpoint and capture the authentication token used to control the agent; Meta removed the vulnerable setting from production builds within a day. The incident also highlighted a separate enterprise-control gap: Muse can use user-provided credentials and connected services, but the product documentation described an individual audit trail rather than a central SIEM export, admin console, or DLP integration. Enterprises adopting personal agents therefore need connector inventories, API-key and OAuth monitoring, activity logs, and explicit controls for what an agent may read or change.",
+      "readTime": "5 min",
+      "impact": "High",
+      "url": "https://venturebeat.com/security/meta-patched-muses-zero-day-but-security-teams-still-lack-visibility-into-what-the-agent-can-access"
+    }
+  ]
+}
