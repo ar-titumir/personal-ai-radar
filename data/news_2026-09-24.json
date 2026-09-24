@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T06:00:32+06:00",
+  "stories": [
+    {
+      "id": "2026-09-24-0",
+      "title": "Anthropic and OpenAI keep advancing frontier models despite calls to slow down",
+      "source": "The Register",
+      "time": "06:00",
+      "category": "Models",
+      "tag": "Fresh signal",
+      "summary": "Anthropic and OpenAI introduced new frontier-model updates as debate over the pace and safety of AI development continued, according to The Register. The report highlights Anthropic Opus 5.5 and OpenAI GPT-6 Sol, including faster output and continuing competition on demanding coding and agentic workloads. For enterprise buyers, the practical issue is not only benchmark movement: each new model raises the cost of evaluation, migration, access control, and monitoring across production workflows.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/23/frontier-ai-keeps-racing-despite-calls-to-slow-down"
+    },
+    {
+      "id": "2026-09-24-1",
+      "title": "Z.ai disables ZCode features after developers found workspace uploads",
+      "source": "The Chosun Daily",
+      "time": "06:00",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "An investigation found that Z.ai’s ZCode coding assistant had transmitted development data and past revisions without clear user consent; Z.ai said the behavior came from a feature enabled by default, then disabled the feature, deleted transmitted data, and open-sourced the project. The reported case included a failed 313MB upload and a smaller file that had already been sent, making the incident more than a theoretical privacy concern. Teams deploying coding agents should treat workspace scope, default telemetry, retention, deletion proof, and outbound-transfer monitoring as procurement and implementation requirements.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.chosun.com/english/industry-en/2026/09/22/ABYLC3M64FH5RIP2XFNL3XU5DA/"
+    },
+    {
+      "id": "2026-09-24-2",
+      "title": "Qualcomm agrees to acquire PickNik to connect MoveIt with edge-robotics platforms",
+      "source": "The Robot Report",
+      "time": "06:00",
+      "category": "Robotics",
+      "tag": "Fresh signal",
+      "summary": "Qualcomm said it agreed to acquire PickNik, the company behind the MoveIt open-source manipulation framework, and plans to integrate MoveIt with Qualcomm Dragonwing platforms and Arduino VENTUNO Q boards. The companies said MoveIt will remain open source, while the acquisition is intended to make the path from AI models to planning, manipulation, and real-time control easier for developers; financial terms were not disclosed and closing remains subject to customary conditions. This is a concrete ecosystem move rather than a lab demo, creating room for integrators that can turn edge inference and open robotics software into tested, maintainable industrial or service-robot deployments.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/"
+    },
+    {
+      "id": "2026-09-24-3",
+      "title": "Leah launches an agentic harness for end-to-end enterprise contracting",
+      "source": "Business Wire via Yahoo Finance",
+      "time": "06:00",
+      "category": "Business",
+      "tag": "From the radar",
+      "summary": "Leah launched Leah Contracting on its Maestro platform for work spanning intake, review, negotiation, approval, signature, obligations, and renewal. The company describes deterministic handoffs, approval gates, permissions, observability, audit records, and more than 750 industry templates; it also says enterprises can keep human judgment at selected points and connect the service to existing systems. Leah’s claims are company-reported, but the product and its stated consumption-oriented approach show where enterprise AI services are moving: domain-specific workflow ownership, governed autonomy, and pricing tied to completed work rather than model seats or raw tokens.",
+      "readTime": "4 min",
+      "impact": "Medium",
+      "url": "https://finance.yahoo.com/technology/ai/articles/clm-era-over-leah-introduces-130000600.html"
+    }
+  ]
+}
