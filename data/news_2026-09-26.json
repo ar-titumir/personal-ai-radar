@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-26T06:02:25.349490+06:00",
+  "stories": [
+    {
+      "id": "2026-09-26-1",
+      "title": "Open-source AI agents power a low-cost campaign against 27 companies",
+      "source": "The Register",
+      "time": "05:32",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "Gambit reconstructed a campaign in which an operator used the Strix, Cairn, and Hermes open-source AI harnesses to probe and attack hundreds of targets, compromising at least 27 organizations between September 10 and 15. The operation included web-shell deployment, privilege escalation, cloud-credential theft, and the exfiltration of more than 600,000 payment-card records from two victims, while the operator’s average spend was only about $25 per completed scan. The episode shows why organizations need controls around autonomous scanning, agent identity, tool permissions, and rapid containment—not just model-level safety filters.",
+      "readTime": "3 min",
+      "impact": "Security teams should treat autonomous offensive agents as a scalable threat multiplier and add runtime authorization, egress controls, and continuous detection around agent tooling.",
+      "url": "https://www.theregister.com/security/2026/09/25/crook-used-three-open-source-agents-to-break-into-a-fortune-500-hospitality-company-a-major-us-airline-and-25-other-orgs/5299012"
+    }
+  ]
+}
