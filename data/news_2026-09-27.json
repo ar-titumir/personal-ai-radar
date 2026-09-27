@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T06:01:37.369046+06:00",
+  "stories": [
+    {
+      "id": "2026-09-27-0",
+      "title": "Nscale raises $3.36B convertible financing ahead of AI-neocloud IPO",
+      "source": "TechCrunch",
+      "time": "06:00",
+      "category": "Business",
+      "tag": "Fresh signal",
+      "summary": "British neocloud Nscale announced $3.36 billion in convertible financing ahead of a planned US IPO, with $2.36 billion available immediately and another $1 billion from Nvidia expected in November. TechCrunch reports that the financing reflects the capital intensity of AI data-center expansion; Nscale is developing campuses in Norway and West Virginia and says its IPO filing includes more than $103 billion in contracts. The figures are company-reported and the notes convert only after the IPO, but the deal is a useful benchmark for services firms: customers building AI capacity will need independent workload sizing, vendor and power planning, and operating support before infrastructure commitments harden.",
+      "readTime": "3 min",
+      "impact": "High",
+      "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/"
+    },
+    {
+      "id": "2026-09-27-1",
+      "title": "Feather sells modular humanoid robots for restaurant and lab work",
+      "source": "TechCrunch",
+      "time": "06:00",
+      "category": "Robotics",
+      "tag": "Fresh signal",
+      "summary": "Feather Robotics says it has begun selling a modular humanoid platform, surpassed $1 million in revenue, and has robots working as cooks in Japanese restaurants and cleaning science labs. The company says customers can adapt hardware such as arm length, run models from multiple robotics-AI providers, and buy a unit for about $30,000; it is not disclosing customer names, so the deployment scale and operating results remain unverified beyond the company’s account. This is a more concrete commercial signal than a demo: a services opportunity exists around task selection, site safety, model integration, fleet monitoring, maintenance, and the human fallback procedures needed to make small robot deployments reliable.",
+      "readTime": "4 min",
+      "impact": "Medium",
+      "url": "https://techcrunch.com/2026/09/24/meet-feather-the-startup-building-the-android-of-robotics-for-developers/"
+    }
+  ]
+}
