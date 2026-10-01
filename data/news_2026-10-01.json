@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T06:01:31+06:00",
+  "stories": [
+    {
+      "id": "2026-10-01-0",
+      "title": "Flow Engineering raises $50M to bring agentic iteration to hardware design",
+      "source": "Flow Engineering",
+      "time": "06:00",
+      "category": "Edge AI",
+      "tag": "Fresh signal",
+      "summary": "Flow Engineering announced a $50 million Series B at a $750 million valuation, with Rivian, Anduril, Joby, and Stoke Space among the companies it says are using its agents in live hardware programs. Its platform connects requirements, CAD, simulation, code, and tests, then tracks design changes, identifies downstream effects, and checks requirements and test coverage; Flow says Rivian usage grew from 40 to 1,500 users in seven months. The company plans to add review, branching, evaluation, and security controls and pursue FedRAMP authorization, making this a concrete example of AI moving into engineering systems where traceability and regulated deployment matter as much as generation speed.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.flowengineering.com/blog/series-b-press-release"
+    },
+    {
+      "id": "2026-10-01-1",
+      "title": "Restate raises $20M to make long-running AI workflows survive failure",
+      "source": "Morningstar / Business Wire",
+      "time": "06:00",
+      "category": "Tools",
+      "tag": "Fresh signal",
+      "summary": "Restate raised a $20 million Series A led by Singular, with Redpoint Ventures and Capital One Ventures participating, bringing its total funding to 7 million. The company builds durable-execution infrastructure that preserves state, communication, and progress when agents call models and APIs across long-running workflows; it says the system is already used by hundreds of companies and handles durable orchestration for Replit Agent. Restate is also offering bring-your-own-cloud deployment so customers can keep the service inside their own cloud and VPC, highlighting a practical enterprise requirement: agent systems need replayable execution, recovery, and deployment controls before they can be trusted with business processes.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.morningstar.com/news/business-wire/20260930945523/restate-raises-20m-series-a-to-define-the-infrastructure-layer-for-ai-agents-and-workflows"
+    }
+  ]
+}
