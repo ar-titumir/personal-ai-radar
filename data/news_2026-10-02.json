@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T16:48:14.353945+06:00",
+  "stories": [
+    {
+      "id": "2026-10-02-0",
+      "title": "AWS open-sources a local engine for time-aware agent guardrails",
+      "source": "AWS",
+      "time": "16:48",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "AWS released the Dogwood Local Engine under the Apache 2.0 license as an embeddable library for deciding whether an AI agent may make a tool call. Unlike a point-in-time permission check, the engine keeps durable history of prior actions, their order, timing, and outcomes, so policies can require conditions such as a recent successful test before allowing a Git push. The release gives engineering teams a concrete policy-enforcement layer outside the model, while still leaving the surrounding harness responsible for enforcing the allow-or-deny decision.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://aws.amazon.com/blogs/opensource/introducing-the-dogwood-local-engine-temporal-governance-for-agent-actions"
+    },
+    {
+      "id": "2026-10-02-1",
+      "title": "DIVD discloses a Zammad breach involving two actively exploited flaws",
+      "source": "DIVD CSIRT",
+      "time": "16:48",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "The Dutch Institute for Vulnerability Disclosure says attackers breached its systems through two Zammad vulnerabilities and that the incident involved AI agents; its investigation remains open. DIVD identifies CVE-2026-102489 as a session-hijack path to remote code execution in older Zammad releases and CVE-2026-102490 as a local privilege-escalation flaw that can move from the Zammad user to root. Administrators should upgrade to Zammad 7 or take exposed instances offline and use DIVD’s log-verification script, while recognizing that the incident and scope are still being investigated.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://csirt.divd.nl/cases/DIVD-2026-00014/"
+    },
+    {
+      "id": "2026-10-02-2",
+      "title": "Barclays expands Claude across software, support, and operations",
+      "source": "Anthropic",
+      "time": "16:48",
+      "category": "Business",
+      "tag": "Fresh signal",
+      "summary": "Barclays is expanding its strategic collaboration with Anthropic to deploy Claude across a large, regulated banking operation. Anthropic says Claude already helps 16,000 Barclays colleagues find customer answers and sorts 120,000 emails per day, while Claude Code adoption is expected to reach half of the bank’s developers by the end of 2026 and a majority in 2027. The announcement is a useful implementation signal rather than a generic model launch: scaling AI in finance depends on governance, security controls, human oversight, workflow integration, and measured expansion across specific operating processes.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.anthropic.com/news/barclays-scales-claude"
+    },
+    {
+      "id": "2026-10-02-3",
+      "title": "Albertsons expands OpenAI work from internal teams to grocery shopping",
+      "source": "OpenAI",
+      "time": "16:48",
+      "category": "Tools",
+      "tag": "Fresh signal",
+      "summary": "Albertsons is expanding its work with OpenAI across ChatGPT Enterprise, custom customer experiences, recommendations, and promotional insights built with the OpenAI API. The new Safeway experience in ChatGPT lets shoppers move from a recipe or dinner idea toward a grocery list and checkout, with plans to extend the experience across additional Albertsons brands. Behind the customer interface, the retailer is combining predictive models with generative AI so merchants can evaluate explainable recommendations and promotions, illustrating how enterprise deployments pair internal workflow adoption with a narrowly defined customer channel.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://openai.com/index/albertsons-reimagining-retail"
+    },
+    {
+      "id": "2026-10-02-4",
+      "title": "Talius and Health Generation pair aged-care sensors with nurse-led monitoring",
+      "source": "Talius Group",
+      "time": "16:48",
+      "category": "Robotics",
+      "tag": "Fresh signal",
+      "summary": "Talius and Health Generation entered a binding commercial partnership to market CareGen Intelligence to Australian aged-care providers. The offering combines Talius sensor hardware, software, AI reporting, installation, and support with Health Generation’s registered-nurse oversight, monitoring, triage, escalation pathways, and clinical reporting; Health Generation will lead customer acquisition and clinical delivery. The agreement targets three customer sites and one pilot in its first measurement period, uses upfront implementation plus recurring wholesale software revenue, and has no guaranteed minimum, making the channel model and deployment evidence more concrete than a prototype announcement.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.marketindex.com.au/data-api/api/v1/announcements/XASX%3ATAL%3A2A1700908/pdf/inline/talius-enters-partnership-for-caregen-intelligence"
+    }
+  ]
+}
