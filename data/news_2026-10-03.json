@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T06:00:00+06:00",
+  "stories": [
+    {
+      "id": "2026-10-03-0",
+      "title": "GitHub makes Copilot code review callable by API",
+      "source": "GitHub",
+      "time": "06:00",
+      "category": "Tools",
+      "tag": "Fresh signal",
+      "summary": "GitHub made Copilot code review available through supported REST and GraphQL APIs, with an optional review-effort setting on each request. Teams can now trigger reviews from their own scripts, workflows, and internal tools instead of relying only on the repository interface. GitHub also made Balanced the default effort level for new and existing repositories unless an administrator has explicitly selected Lite, which gives teams a concrete policy choice as they operationalize automated review.",
+      "readTime": "2 min",
+      "impact": "High",
+      "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level"
+    },
+    {
+      "id": "2026-10-03-1",
+      "title": "GitHub retires four Copilot models and points users to replacements",
+      "source": "GitHub",
+      "time": "06:00",
+      "category": "Models",
+      "tag": "Fresh signal",
+      "summary": "GitHub deprecated Gemini 3.5 Flash, Gemini 3.6 Flash, Kimi K2.7 Code, and Claude Opus 4.7 across Copilot Chat, inline edits, agent modes, and code completions on October 2. GitHub lists newer alternatives\u2014Gemini 3.8 Flash, Kimi K3, and Claude Opus 5.5\u2014and notes that enterprise administrators may need to enable those models through policy. The change is a reminder that production coding-agent integrations need model allowlists, fallback paths, and a routine migration check rather than hard-coded model assumptions.",
+      "readTime": "2 min",
+      "impact": "High",
+      "url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated"
+    },
+    {
+      "id": "2026-10-03-2",
+      "title": "GitHub adds structured forms to private vulnerability reports",
+      "source": "GitHub",
+      "time": "06:00",
+      "category": "Security",
+      "tag": "From the radar",
+      "summary": "GitHub introduced structured forms for private vulnerability reports so maintainers can require a summary, details, a proof of concept of at least 150 characters, and an impact statement before review. Organizations can customize the form, require a CWE, surface their SECURITY.md policy, and let reporters disclose AI assistance; API submissions must match a repository\u2019s custom form while existing integrations continue to work with the API rules. The change targets a practical security-operations problem: improving signal quality and triage consistency as vulnerability reports become easier to generate with AI.",
+      "readTime": "3 min",
+      "impact": "High",
+      "url": "https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports"
+    }
+  ]
+}
