@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T06:00:00+06:00",
+  "stories": [
+    {
+      "id": "2026-10-04-0",
+      "title": "Nvidia launches OpenShell to put enforceable boundaries around AI agents",
+      "source": "WCCB Charlotte / AP",
+      "time": "06:00",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "Nvidia introduced OpenShell, an open-source security system intended to give AI agents explicit boundaries around the tools and resources they can use. The company says the platform can formally check whether an agent has enough authority for a task and no more, and that more than 100 organizations—including Microsoft, Perplexity, Accenture, and JPMorgan Chase—were using it at launch; those adoption and prevention claims are vendor-reported. The release matters for enterprise deployments because agent security is moving beyond prompt filters toward enforceable runtime policy, independent monitoring, and integration work across identities, tools, and incident response.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.wccbcharlotte.com/2026/10/03/nvidia-unveils-security-platform-to-stop-ai-agents-from-going-rogue"
+    },
+    {
+      "id": "2026-10-04-1",
+      "title": "BTS signs 2.8M AI enablement and implementation contract",
+      "source": "BTS Group / GlobeNewswire",
+      "time": "06:00",
+      "category": "Business",
+      "tag": "Fresh signal",
+      "summary": "BTS Group announced a 2.8 million contract with an unnamed global company for AI enablement and implementation services, covering the third quarter of 2026 through the first quarter of 2027, with most work expected in the fourth quarter. BTS describes the engagement as helping the client build a self-reliant, continually renewing AI culture and skillset rather than outsourcing all AI innovation; the announcement does not identify the customer or disclose a detailed delivery scope. The deal is a useful services-market signal: enterprise buyers are paying for adoption, implementation, and workforce capability alongside technology, leaving room for specialists that can define measurable workflows, train internal teams, and provide ongoing governance.",
+      "readTime": "3 min",
+      "impact": "High",
+      "url": "https://www.globenewswire.com/news-release/2026/10/02/3373715/0/en/bts-signs-usd-12-8m-ai-enablement-and-implementation-deal-with-leading-global-company.html"
+    }
+  ]
+}
