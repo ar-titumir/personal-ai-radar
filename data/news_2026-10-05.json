@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T00:40:19.815139Z",
+  "stories": [
+    {
+      "id": "2026-10-05-0",
+      "title": "Google pauses open-source bug bounty after AI-generated report surge",
+      "source": "TechCrunch",
+      "time": "02:31",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "Google paused its Open Source Software Vulnerability Rewards Program on October 1 and says it will provide an update in the first quarter of 2027. The company attributed the pause to a significant rise in automated submissions, most of which it said were invalid; maintainers and engineers were reportedly spending time on hallucinated or otherwise unusable reports. The episode shows why security teams will need intake filters and verification workflows as cheap AI-generated vulnerability claims scale.",
+      "readTime": "3 min",
+      "impact": "High",
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/"
+    },
+    {
+      "id": "2026-10-05-1",
+      "title": "KT packages a Korean NPU, LLM, and API platform into an on-premise AI server",
+      "source": "The Korea Times",
+      "time": "00:00",
+      "category": "Edge AI",
+      "tag": "Fresh signal",
+      "summary": "KT launched the NPU LLM Station, an enterprise appliance that combines Rebellions’ ATOM-MAX inference processor, KT’s Mi:dm K 2.5 Pro model, and an operations API platform. It is designed to keep data and inference inside customer facilities for sectors such as finance, manufacturing, pharmaceuticals, government, and defense, with retrieval over internal documents available after installation. KT says it plans to add meeting, coding, and workflow agents and to explore low-power edge deployments for physical AI; the integrated stack also creates a clear trade-off between sovereign control and hardware or model flexibility.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.koreatimes.co.kr/business/companies/20260819/kt-puts-korean-ai-chips-language-model-into-one-enterprise-server"
+    },
+    {
+      "id": "2026-10-05-2",
+      "title": "Quadric outlines a programmable NPU approach for changing generative-AI workloads",
+      "source": "Quadric",
+      "time": "00:00",
+      "category": "Edge AI",
+      "tag": "Fresh signal",
+      "summary": "Quadric’s October white paper presents a general-purpose neural processor that combines scalar, vector, and matrix execution under one instruction set and exposes C++ and Python programming through its compiler. In the company’s worked example, a four-core configuration runs Qwen3-8B at 21 tokens per second with INT4 weights, which Quadric says is about 90% of the external-memory bandwidth roofline. The practical proposition is software adaptability: new operators and quantization schemes can be handled in kernels and compiler passes instead of waiting for a fixed-function silicon respin, although the published performance figures are vendor results rather than independent benchmarks.",
+      "readTime": "5 min",
+      "impact": "Medium",
+      "url": "https://quadric.ai/whitepapers/generative-ai-on-gpnpu"
+    },
+    {
+      "id": "2026-10-05-3",
+      "title": "Mendaera’s FDA-cleared procedure robot reaches commercial availability with Butterfly ultrasound",
+      "source": "Butterfly Network",
+      "time": "18:01",
+      "category": "Robotics",
+      "tag": "Fresh signal",
+      "summary": "Mendaera and Butterfly Network made a Butterfly-compatible version of the Focalist system commercially available through their embedded-technology partnership. Focalist combines handheld robotics, real-time ultrasound, and guidance software for procedures including vascular access, nerve blocks, and organ access; the system has FDA clearance for precise instrument placement with compatible probes. This is a shipped healthcare product rather than a lab demo, and the partnership points to an integration opportunity around clinical workflow, device support, training, and future imaging-AI software.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://www.butterflynetwork.com/press-releases/mendaera-focalist"
+    },
+    {
+      "id": "2026-10-05-4",
+      "title": "Healthcare Triangle and AI World plan a North American humanoid nursing-robot venture",
+      "source": "Healthcare Triangle via Newswire",
+      "time": "00:00",
+      "category": "Robotics",
+      "tag": "From the radar",
+      "summary": "Healthcare Triangle announced a non-binding memorandum of understanding with Malaysia’s AI World to form a North American joint venture for AI-enabled nursing robots focused on toileting and hygiene assistance. Healthcare Triangle expects to hold 70% of the venture, use its network of more than 140 hospital relationships, and lead funding, manufacturing arrangements, sales, and distribution while AI World supplies technology transfer and engineering support. The robots are not yet commercially deployed: the parties still need definitive agreements, regulatory clearances, clinical validation, and pilot deployments, so the near-term opportunity is hospital integration and safety validation rather than immediate rollout.",
+      "readTime": "4 min",
+      "impact": "Medium",
+      "url": "https://www.newswire.ca/news-releases/healthcare-triangle-inc-signs-mou-to-bring-ai-enabled-humanoid-nursing-robots-to-hospitals-in-north-america-837412938.html"
+    }
+  ]
+}
