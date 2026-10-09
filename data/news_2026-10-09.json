@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T19:50:28.697837+06:00",
+  "stories": [
+    {
+      "title": "Anthropic pairs critical-infrastructure defense with free opt-in open-source scans",
+      "source": "Anthropic",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "Anthropic launched its Cyber Mission with a Critical Infrastructure Defense Program that combines Claude models, on-site engineers, and threat research for trusted industrial-security providers. Its founding partners include Accenture, Dragos, Hitachi, and Rockwell Automation, and Anthropic says several partners are already using Claude to help fix vulnerabilities. The accompanying OSS Scanner gives enrolled open-source projects free periodic scans with explanations, exploit proofs of concept, and suggested fixes where available, but sends the model-generated reports without human review. The practical bottleneck remains verification and safe remediation: maintainers must check findings, while industrial operators cannot treat an automatically proposed patch as safe to deploy.",
+      "readTime": "5 min",
+      "impact": "High",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "time": "19:50",
+      "id": "2026-10-09-0"
+    },
+    {
+      "title": "Indosat and F5 launch governed model access with Indonesian data-residency controls",
+      "source": "TNGlobal",
+      "category": "Tools",
+      "tag": "Fresh signal",
+      "summary": "Indosat and F5 launched the Indosat Intelligence Suite on October 9, combining access to local and global models with token metering, workload routing, and security policies. TNGlobal reports that the live catalog lists more than 100 models while more than 300 remain part of the roadmap, so the larger launch figure should not be read as universal availability. Pay-as-you-go access, shared enterprise credits, and dedicated capacity are offered, with policies intended to determine which workloads stay in Indonesia and which may reach global services. The companies have not named committed customers or supplied independently audited security results; the useful enterprise signal is the packaging of model choice, spending controls, and residency governance behind one interface.",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://technode.global/2026/10/09/indosat-f5-governed-ai-platform/",
+      "time": "19:50",
+      "id": "2026-10-09-1"
+    },
+    {
+      "title": "Cognizant extends Gilead engagement for AI-enabled DevOps",
+      "source": "Cognizant",
+      "category": "Business",
+      "tag": "From the radar",
+      "summary": "Cognizant announced a five-year extension with Gilead Sciences on October 6 to support DevOps and the responsible use of agentic AI across selected technology programs. The agreement builds on more than a decade of work covering parts of the pharmaceutical company’s infrastructure, platforms, applications, and analytics; Gilead’s CIO confirms the focus on reliable technology and practical AI evaluation. This is an implementation-services relationship rather than a standalone model subscription, but the announcement does not disclose a contract value, pricing structure, or measured productivity gains. It illustrates a specific services niche: integrating AI into established development and operations workflows while preserving the customer’s reliability and governance requirements.",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "url": "https://news.cognizant.com/2026-10-06-Cognizant-Expands-AI-Enabled-DevOps-Capabilities-for-Gilead-Sciences?asPDF=1",
+      "time": "19:50",
+      "id": "2026-10-09-2"
+    },
+    {
+      "title": "Hello Robot receives nearly $3 million to test Stretch for elder-care assistance",
+      "source": "Robotics & Automation News",
+      "category": "Robotics",
+      "tag": "From the radar",
+      "summary": "Hello Robot received a nearly $3 million, three-year National Institute on Aging grant to develop Stretch for older adults with mild cognitive impairment and early Alzheimer’s dementia, working with the University of Illinois Urbana-Champaign. The project uses Stretch 4 to investigate cognitive assistance, social engagement, and safety-related daily routines, with participatory research involving 60 older adults, care partners, and professional staff. Planned evaluations include homes and care settings, with care staff testing the robot over an eight-week period and researchers assessing usability, reliability, trust, and safe operation. This is funded research toward commercialization, not evidence of a generally available elder-care service or established clinical benefit; deployment protocols and caregiver integration are still being developed.",
+      "readTime": "5 min",
+      "impact": "Medium",
+      "url": "https://roboticsandautomationnews.com/2026/10/04/hello-robot-awarded-3-million-to-develop-stretch-robot-for-elder-care/105500/",
+      "time": "19:50",
+      "id": "2026-10-09-3"
+    }
+  ]
+}
