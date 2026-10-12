@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-12T06:03:57.124084+06:00",
+  "stories": [
+    {
+      "title": "Frontline acquires KL Software to combine legal AI implementation with managed services",
+      "source": "Frontline Managed Services",
+      "category": "Business",
+      "tag": "Fresh signal",
+      "summary": "Frontline announced its acquisition of KL Software Technologies and affiliate KLoBot on October 6, alongside a new Intelligent Applications business for law firms. The offering combines AI readiness advice, Microsoft Copilot implementation, document-management integration, and ongoing application management, rather than simply reselling AI subscriptions. Its stated delivery scope includes Microsoft 365, Azure, iManage, and NetDocuments, bringing implementation and recurring support into the same client relationship. The announcement does not disclose acquisition terms, engagement prices, or independently measured productivity gains; the practical signal is demand for industry-specific integration and managed operations, not proof of a particular return on investment.",
+      "readTime": "4 min",
+      "impact": "Medium",
+      "url": "https://frontlinems.com/uncategorized/frontline-managed-services-acquires-kl-software-technologies/",
+      "id": "2026-10-12-0",
+      "time": "06:03"
+    },
+    {
+      "title": "Donut Robotics and Charm Care back an elder-care humanoid pilot with an equity alliance",
+      "source": "Donut Robotics / APOC Wire",
+      "category": "Robotics",
+      "tag": "From the radar",
+      "summary": "In an October 5 announcement, Donut Robotics said it had entered a capital and business alliance with senior-living operator Charm Care, which will subscribe to 300 million yen of its common shares. The companies report an experimental deployment of the cinnamon humanoid at one Charm Care facility beginning in July, and plan to extend existing patrol functions toward responding to nurse calls. Nurse-call assistance remains a development goal, not an established capability deployed across Charm Care’s more than 100 homes. The release gives no deployment price, regulatory clearance, or independently verified care outcomes, so the near-term opportunity is supervised pilots, workflow integration, and maintenance rather than replacing care staff.",
+      "readTime": "4 min",
+      "impact": "Medium",
+      "url": "https://apocwire.com/us/p/00000477.00000312.html",
+      "id": "2026-10-12-1",
+      "time": "06:03"
+    }
+  ]
+}
