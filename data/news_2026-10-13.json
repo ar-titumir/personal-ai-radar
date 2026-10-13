@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T06:03:48.051342+06:00",
+  "stories": [
+    {
+      "title": "Microsoft details Maia 300 silicon and rack design for large-scale AI inference",
+      "source": "Microsoft Azure",
+      "category": "Devices",
+      "tag": "Fresh signal",
+      "summary": "Microsoft published the architecture of Maia 300 on October 12, describing a system co-designed across chips, memory, networking, racks, and datacenters for cloud-scale AI inference. The design uses eight HBM4 stacks with 288 GB of memory per accelerator, doubles rack density to 96 accelerators, and supports a scale-up network spanning as many as 12,288 accelerators. Microsoft reports up to seven times the rack-scale token throughput of Maia 200 in the full configuration; that comparison includes twice as many accelerators per rack and is a vendor result, not an independent benchmark. The practical signal is that long-context and multi-step agent workloads are driving investment in memory locality and data movement, not just raw compute; the announcement does not establish customer API pricing or savings for a particular application.",
+      "readTime": "7 min",
+      "impact": "High",
+      "url": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+      "id": "2026-10-13-0",
+      "time": "06:03"
+    },
+    {
+      "title": "UK backs eight robotics adoption hubs with £40 million, including surgical implementation support",
+      "source": "UK Government",
+      "category": "Robotics",
+      "tag": "From the radar",
+      "summary": "The UK government announced £40 million backing for eight Robotics Adoption Hubs on October 9, covering surgical robotics, agriculture, manufacturing, waste and recycling, and public-space service robots. The SHARP surgical hub is intended to support safe, evidence-based implementation, while the wider network offers impartial advice, demonstrations, deployment support, and introductions to suppliers, integrators, and finance providers. The announcement also identifies £2.5 million for 12 training projects addressing the skills needed to select, integrate, operate, and maintain robotics. This is funding for adoption infrastructure rather than the launch of a new robot or evidence of a nationwide clinical rollout; the release gives no hospital deployment count or demonstrated patient outcomes. For services businesses, the concrete opening is helping organizations turn proven hardware into workable operations through feasibility studies, workflow integration, staff training, and maintenance.",
+      "readTime": "6 min",
+      "impact": "Medium",
+      "url": "https://www.gov.uk/government/news/brits-to-benefit-from-faster-recovery-from-surgeries-and-better-harvests-through-new-backing-for-robotics",
+      "id": "2026-10-13-1",
+      "time": "06:03"
+    }
+  ]
+}
