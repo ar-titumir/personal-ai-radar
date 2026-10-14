@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T06:03:35.711092+06:00",
+  "stories": [
+    {
+      "title": "Google expands Gemini 4 Argon access with background tasks and introductory API pricing",
+      "source": "SiliconANGLE",
+      "category": "Models",
+      "tag": "Fresh signal",
+      "summary": "Google expanded Gemini 4 Argon to Gemini app Pro and Ultra subscribers on October 13, alongside a tasks mode that can continue working after the user leaves the computer.[16] SiliconANGLE reports that the paid Gemini API is also opening to developers worldwide, with introductory prices of $2 per million input tokens and $10 per million output tokens, rising to $4 and $20 on November 30.[16] The app supports more than 40 connected services, while Google Antigravity brings its coding interface into the macOS Gemini app; tasks remain limited to selected countries and the Pro rollout is still in progress.[16] For implementation teams, the practical questions are which connectors and regions a client can actually use, how unattended actions will be approved, and whether an application remains economical after introductory pricing ends.\n\nSources:\n[16] https://siliconangle.com/2026/10/13/gemini-4-argon-reaches-gemini-app-pro-and-ultra-subscribers-alongside-a-new-tasks-mode",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://siliconangle.com/2026/10/13/gemini-4-argon-reaches-gemini-app-pro-and-ultra-subscribers-alongside-a-new-tasks-mode",
+      "id": "2026-10-14-0",
+      "time": "06:03"
+    },
+    {
+      "title": "HCLTech and Anthropic pair enterprise AI implementation with sandboxing and human oversight",
+      "source": "HCLTech / ANI",
+      "category": "Business",
+      "tag": "From the radar",
+      "summary": "HCLTech announced a Global Premier Partnership with Anthropic on October 12, planning a dedicated business unit and Centre of Excellence to build enterprise solutions using Claude, Cowork and Claude Code.[32][30] Its services scope includes secure deployment sandboxes, forward-deployed engineers, workforce training and integration into existing operations, rather than only reselling model access.[32] HCLTech also plans to integrate Claude into its AI Force platform for IT support, code remediation and digital employee services, with policy guardrails, exception handling and human oversight for high-impact changes.[32][30] The announcement provides no engagement prices, named customer deployment results or measured savings, so it establishes a delivery partnership rather than proven return on investment.[32] For smaller services firms, the relevant pattern is to combine a narrowly scoped implementation with governance, training and a clear operational handoff.\n\nSources:\n[30] https://english.punjabkesari.com/business/hcltech-anthropic-partner-to-scale-governed-agentic-ai-across-enterprises\n[32] https://www.hcltech.com/en-us/press-releases/hcltech-and-anthropic-sign-global-premier-partnership-scale-governed-agentic-ai",
+      "readTime": "5 min",
+      "impact": "Medium",
+      "url": "https://www.hcltech.com/en-us/press-releases/hcltech-and-anthropic-sign-global-premier-partnership-scale-governed-agentic-ai",
+      "id": "2026-10-14-1",
+      "time": "06:03"
+    }
+  ]
+}
