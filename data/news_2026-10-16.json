@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T06:03:13.452944+06:00",
+  "stories": [
+    {
+      "title": "Google and Synaptics preview a lower-power Coral M2 edge AI chip",
+      "source": "ChosunBiz / Seoul Economic Daily",
+      "time": "06:03",
+      "category": "Edge AI",
+      "tag": "Fresh signal",
+      "summary": "Google Research previewed an Astra edge-AI chip co-developed with Synaptics at its October 14 research event, according to October 15 reporting.[13] The design uses the Coral NPU M2, and Google claims it consumes 40% less energy than existing products; the report does not provide an independent benchmark or enough detail to establish savings for a particular workload.[13] Synaptics says the chip will reach Google devices, but has not identified those products or their release dates, and plans to disclose specifications and demonstrate the chip on October 20.[13] The potential use cases include local voice, video, motion and context processing in wearables, making this a hardware-development signal rather than a shipping-product announcement.[13] For integrators, the next step is to evaluate actual power, latency and privacy requirements once hardware and tooling are available.\n\nSources:\n[13] https://biz.chosun.com/en/en-it/2026/10/15/3JJ3XAMS5NB63JAKHQILNNUN5E",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://biz.chosun.com/en/en-it/2026/10/15/3JJ3XAMS5NB63JAKHQILNNUN5E",
+      "id": "2026-10-16-0"
+    },
+    {
+      "title": "ServiceNow introduces runtime credentials to constrain AI agents",
+      "source": "SiliconANGLE",
+      "time": "06:03",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "ServiceNow announced AI Passport on October 15: signed credentials that define an AI agent’s identity, accountable owner, accessible systems and permitted actions, with checks during execution.[3] In a demonstration, a refund agent could approve an $18 request but was blocked from a $40 refund that exceeded its authorization threshold; this was a demonstration, not a reported production outcome.[3] NVIDIA is a design and launch partner, connecting these permissions with its OpenShell runtime and Sentry security framework.[3] AI Passport, shadow-AI detection and AI Cost Management are scheduled for later this quarter, while the new EmployeeWorks assistants and automation tools have controlled availability.[3] The practical implementation challenge is translating business approval rules into enforceable tool permissions and revocation procedures rather than relying on prompts alone.\n\nSources:\n[3] https://siliconangle.com/2026/10/15/servicenow-adds-ai-agent-controls-and-employee-automation-tools",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://siliconangle.com/2026/10/15/servicenow-adds-ai-agent-controls-and-employee-automation-tools",
+      "id": "2026-10-16-1"
+    },
+    {
+      "title": "Meta releases Muse Spark Open with commercial licensing limits",
+      "source": "SiliconANGLE",
+      "time": "06:03",
+      "category": "Models",
+      "tag": "Fresh signal",
+      "summary": "Meta released open weights for Muse Spark Open on October 15, targeting coding and long-running agent tasks with an 816-billion-parameter model that activates 42 billion parameters per token.[20] SiliconANGLE reports multimodal inputs and a context window of up to one million tokens, with hosted access from seven inference providers at launch.[20] This is an open-weight release with restrictions: the license requires attribution, prohibits military and critical-infrastructure uses, and requires a separate agreement for companies selling hosted model access once they exceed $20 million in gross revenue over a 12-month period.[20] Meta also demonstrated the model across two Mac Studio machines with roughly a terabyte of combined memory, which should not be confused with economical deployment on an ordinary workstation.[20] Agencies should evaluate license fit, total hosting cost and task reliability before treating self-hosting as a cheaper replacement for APIs.\n\nSources:\n[20] https://siliconangle.com/2026/10/15/meta-releases-816b-parameter-muse-spark-open-for-coding-and-agent-work",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://siliconangle.com/2026/10/15/meta-releases-816b-parameter-muse-spark-open-for-coding-and-agent-work/",
+      "id": "2026-10-16-2"
+    },
+    {
+      "title": "LTM wins a three-year AI-led managed-services deal in engineering and construction",
+      "source": "Moneycontrol",
+      "time": "06:03",
+      "category": "Business",
+      "tag": "From the radar",
+      "summary": "LTM announced a multi-million-dollar managed-services transformation contract with an unnamed North American specialty engineering and construction company on October 15.[5] The initial three-year engagement consolidates infrastructure, cybersecurity and application administration previously handled by several providers, with an AI-led operating model using observability and automation.[5] This is a delivery and operations contract rather than simply a model-access resale arrangement, but the client identity, exact value, pricing mechanism and measured results were not disclosed.[5] The announcement therefore supports a services-business pattern, not a proven return on investment: combine operational consolidation with monitoring, automation and unified governance. A smaller agency could test that pattern through a tightly bounded IT-operations engagement with explicit service levels and human escalation.\n\nSources:\n[5] https://moneycontrol.com/news/business/information-technology/ltm-bags-multi-million-dollar-deal-from-american-specialty-engineering-firm-14053007.html",
+      "readTime": "4 min",
+      "impact": "Medium",
+      "url": "https://moneycontrol.com/news/business/information-technology/ltm-bags-multi-million-dollar-deal-from-american-specialty-engineering-firm-14053007.html",
+      "id": "2026-10-16-3"
+    },
+    {
+      "title": "New York extends ElliQ elder-care companion partnership under a $2.1 million agreement",
+      "source": "The Robot Report",
+      "time": "06:03",
+      "category": "Robotics",
+      "tag": "From the radar",
+      "summary": "The Robot Report reported on October 13 that the New York State Office for the Aging had extended its partnership with Intuition Robotics through a new three-year, $2.1 million agreement.[22] The program provides ElliQ AI companions to older New Yorkers at risk of loneliness and isolation; hundreds have received devices since the program began in 2022, while more than 3,500 applied in 2025.[22] The article reports favorable user surveys and engagement data, but these should not be treated as independently established clinical efficacy or proof that a companion can replace professional care.[22] The agreement establishes a public-sector payer and an existing home-use deployment, although the report does not disclose the new device count, per-user price or medical regulatory status.[22] A plausible services niche is accessible onboarding, consent and privacy support, caregiver coordination and ongoing device assistance, with clear boundaries around health advice.\n\nSources:\n[22] https://www.therobotreport.com/nysofa-expands-partnership-intuition-robotics-bring-elliq-more-seniors",
+      "readTime": "4 min",
+      "impact": "Medium",
+      "url": "https://www.therobotreport.com/nysofa-expands-partnership-intuition-robotics-bring-elliq-more-seniors/",
+      "id": "2026-10-16-4"
+    }
+  ]
+}
