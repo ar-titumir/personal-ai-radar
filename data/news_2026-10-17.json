@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T06:02:12.509264+06:00",
+  "stories": [
+    {
+      "id": "2026-10-17-0",
+      "title": "Eiliko companion robot report exposes conversation leaks and remote manipulation",
+      "source": "Malwarebytes / The Verge",
+      "time": "06:02",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "Malwarebytes reported on October 16 that security flaws in Energize Lab’s Eiliko companion service exposed private conversations and allowed remote changes to a robot’s behavior, citing an investigation by The Verge.[4] Researcher Sammy Azdoufal reportedly accessed 13 million conversations and what appeared to be an active fleet of 68,000 robots; the exposed records included personal profiles and searchable transcripts.[4] In a test involving a Verge reporter’s device, the researcher altered its memory and responses, demonstrating a control problem as well as a confidentiality failure.[4] The report says the manufacturer had not provided substantive answers to the reporter and does not establish that the flaws have been fixed.[4] For organizations considering companion hardware, this is a reason to require tenant-isolation testing, data-retention checks and a documented incident-response process before deployment.\n\nSources:\n[4] https://www.malwarebytes.com/blog/ai/2026/10/eiliko-robot-companion-exposes-private-chats-and-can-be-hijacked",
+      "readTime": "3 min",
+      "impact": "High",
+      "url": "https://www.malwarebytes.com/blog/ai/2026/10/eiliko-robot-companion-exposes-private-chats-and-can-be-hijacked"
+    },
+    {
+      "id": "2026-10-17-1",
+      "title": "China proposes export controls covering advanced AI models and chip technology",
+      "source": "Associated Press / Fortune",
+      "time": "06:02",
+      "category": "Business",
+      "tag": "Fresh signal",
+      "summary": "China’s commerce and science ministries published proposed updates to technology export controls on October 16, including 23 AI technologies alongside chip-design and other technologies.[1] The draft would prohibit exports of core model technologies trained on sensitive national data and agents intended for highly sensitive environments, while potentially restricting models with at least two trillion parameters or specified leading capabilities.[1] Some AI-processing and memory-chip design technologies would also face restrictions; the proposal did not name specific models.[1] These are proposed rules, not evidence that a particular model or customer deployment is already banned.[1] Implementation teams should track the final scope and review supplier dependencies before promising long-term access to a single model or hardware stack.\n\nSources:\n[1] https://fortune.com/2026/10/16/china-restrictions-ai-chips-solar-power-exports-security",
+      "readTime": "3 min",
+      "impact": "High",
+      "url": "https://fortune.com/2026/10/16/china-restrictions-ai-chips-solar-power-exports-security"
+    }
+  ]
+}
