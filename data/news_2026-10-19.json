@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T06:02:45.674845+06:00",
+  "stories": [
+    {
+      "title": "OpenCode reports breach affecting linked AI-provider credentials",
+      "source": "OpenCode / OfficeChai",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "OpenCode said in an October 17 disclosure that a breach affected 1.4% of Console users, specifically a subset with external model providers linked, and that affected users had been notified by email.[20] The company described the incident as a large-scale distillation attack and said it was working with Anthropic, OpenAI and Google while the investigation continued.[20] October 18 reporting by OfficeChai says credentials stored in a legacy system may have been exposed and that affected customers were asked to revoke and replace provider keys and review usage.[13] The disclosure does not establish a completed remediation or a confirmed loss amount.[20] For implementation teams, the practical lesson is to inventory third-party credential storage and prepare a rotation procedure that updates dependent applications without leaving old keys active.\n\nSources:\n[13] https://officechai.com/ai/opencode-discloses-security-breach-says-attackers-may-have-accessed-users-openai-anthropic-and-google-api-keys\n[20] https://x.com/opencode/status/2111519637049319818",
+      "url": "https://officechai.com/ai/opencode-discloses-security-breach-says-attackers-may-have-accessed-users-openai-anthropic-and-google-api-keys",
+      "readTime": "3 min",
+      "impact": "High",
+      "id": "2026-10-19-0",
+      "time": "06:02"
+    },
+    {
+      "title": "Promise Robotics signs D.R. Horton for factory-as-a-service homebuilding",
+      "source": "The Robot Report",
+      "category": "Robotics",
+      "tag": "From the radar",
+      "summary": "Promise Robotics announced a multi-year agreement with D.R. Horton to use its Factory-as-a-Service capabilities for more than 1,250 US homes, The Robot Report reported on October 13.[18] Its system translates home designs into production plans and robotic instructions, coordinates component manufacturing and connects factory output to onsite installation.[18] The company is setting up initial facilities in Edmonton, Calgary and Phoenix, with its own crews operating the systems; the agreement is a commercial commitment, not evidence that all contracted homes have been completed.[18] D.R. Horton identifies production capacity and more predictable construction as goals, but the report does not disclose contract pricing or independently measured customer savings.[18] The service model matters because builders can obtain robotic production capacity without developing and operating the entire factory technology themselves.[18]\n\nSources:\n[18] https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding",
+      "url": "https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding/",
+      "readTime": "4 min",
+      "impact": "Medium",
+      "id": "2026-10-19-1",
+      "time": "06:02"
+    }
+  ]
+}
