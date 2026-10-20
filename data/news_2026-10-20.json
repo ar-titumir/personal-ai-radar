@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T06:03:57.251128+06:00",
+  "stories": [
+    {
+      "title": "Microsoft introduces risk-based controls to limit rogue AI agents",
+      "source": "SiliconANGLE",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "Microsoft introduced controls on October 19 that adjust an AI agent’s permissions as its assessed risk changes, according to SiliconANGLE.[3] Dynamic Agent Risk combines identity, endpoint, cloud and network signals, while conditional-access controls can reduce an agent to read-only access, require human approval, or isolate its runtime.[3] The company also describes task-limited permissions and external monitoring, shifting enforcement outside the model rather than depending on prompts alone.[3] Availability dates and pricing were not disclosed, so this is an announced security approach rather than a confirmed generally available deployment option.[3] For implementation teams, the practical priority is to map agent identities, approval rules and revocation procedures before giving autonomous workflows access to important systems.\n\nSources:\n[3] https://siliconangle.com/2026/10/19/microsoft-targets-the-agentic-insider-with-new-controls-for-rogue-ai-agents",
+      "readTime": "3 min",
+      "impact": "High",
+      "url": "https://siliconangle.com/2026/10/19/microsoft-targets-the-agentic-insider-with-new-controls-for-rogue-ai-agents/",
+      "id": "2026-10-20-0",
+      "time": "06:03"
+    },
+    {
+      "title": "MiniMax updates M3.1 Flash, claiming faster inference and lower usage costs",
+      "source": "Reuters / WHTC",
+      "category": "Models",
+      "tag": "Fresh signal",
+      "summary": "MiniMax announced an updated M3.1 Flash model on October 19, Reuters reported.[8] The company claims improvements in agentic tasks, programming and cybersecurity, with online inference speed nearly tripling and usage costs falling by 70%.[8] These are company-reported comparisons, not independently verified benchmark results; the Reuters dispatch does not provide a workload breakdown, an absolute price list or a migration schedule.[8] For teams choosing a model for automation, the useful next step is a controlled comparison on their own tasks, measuring failure rates and total cost per completed workflow rather than assuming the advertised savings will transfer directly.\n\nSources:\n[8] https://whtc.com/2026/10/19/chinas-minimax-launches-updated-ai-model-m3-1-flash-claims-major-improvements",
+      "readTime": "1 min",
+      "impact": "Medium",
+      "url": "https://whtc.com/2026/10/19/chinas-minimax-launches-updated-ai-model-m3-1-flash-claims-major-improvements/",
+      "id": "2026-10-20-1",
+      "time": "06:03"
+    }
+  ]
+}
