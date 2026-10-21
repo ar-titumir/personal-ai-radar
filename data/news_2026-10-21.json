@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T06:03:04.108880+06:00",
+  "stories": [
+    {
+      "title": "Google brings Gemini and Blackwell Ultra hardware to air-gapped AI deployments",
+      "source": "Google Cloud",
+      "category": "Edge AI",
+      "tag": "Fresh signal",
+      "summary": "Google announced an October 20 expansion of its air-gapped Distributed Cloud offering, with Gemini 3.5 Flash and NVIDIA HGX B300 systems now generally available and support for open models including Gemma and Mistral.[14] Its new conversational enterprise search remains in preview, using retrieval-augmented generation and multimodal embeddings to search local text, audio and video while keeping indexing and interactions inside the isolated environment.[14] The announcement also describes Elastic security integration and an expanded software ecosystem including Teradata, Solo.io and Mattermost.[14] This is infrastructure for sovereign enterprise deployments, not a consumer on-device model; the useful distinction is that the hardware and model availability are ahead of the search interface.[14] For implementation teams, a sensible next step is to evaluate document permissions, offline update procedures and operating costs before proposing a production rollout.\n\nSources:\n[14] https://cloud.google.com/blog/topics/hybrid-cloud/new-innovations-in-google-distributed-cloud",
+      "url": "https://cloud.google.com/blog/topics/hybrid-cloud/new-innovations-in-google-distributed-cloud",
+      "readTime": "5 min",
+      "impact": "High",
+      "id": "2026-10-21-0",
+      "time": "06:03"
+    },
+    {
+      "title": "Google previews government workflow agents with named implementation partners",
+      "source": "Google Cloud",
+      "category": "Business",
+      "tag": "Fresh signal",
+      "summary": "Google introduced Gemini for government services in preview on October 20, combining government-specific skills, connectors to existing agency systems and centrally governed partner agents.[13] Its announcement identifies SZNS Solutions agents for public-records discovery and document redaction, with statutory exemptions attached to proposed redactions and human approval before consequential steps.[13] Google names implementation partners including Accenture Federal Services, Deloitte, SAIC, Slalom and SZNS Solutions, and says it is developing the offering with agencies including Missouri and the U.S. Department of Health and Human Services.[13] The stated delivery model includes customization, integration and scaling by systems integrators rather than simply selling chatbot access.[13] The announcement gives no engagement prices or independently measured customer savings, and preview availability should not be mistaken for a broadly completed deployment.[13] A practical services niche is permission-aware records automation with review queues and auditable outputs.\n\nSources:\n[13] https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-government-services",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-government-services",
+      "readTime": "6 min",
+      "impact": "Medium",
+      "id": "2026-10-21-1",
+      "time": "06:03"
+    }
+  ]
+}
