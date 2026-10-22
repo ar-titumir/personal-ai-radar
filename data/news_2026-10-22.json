@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T06:03:01.815719+06:00",
+  "stories": [
+    {
+      "id": "2026-10-22-0",
+      "title": "Recursive releases Flint, an Apache-licensed coding model for local computers",
+      "source": "TechCrunch",
+      "time": "06:03",
+      "category": "Edge AI",
+      "tag": "Fresh signal",
+      "summary": "Recursive released Flint on October 21, a downloadable coding model licensed under Apache 2.0 that can run locally rather than sending code to a hosted service.[13] TechCrunch reports a mixture-of-experts architecture with 40 billion total parameters and 2.5 billion active at a time; Recursive reports about 131 tokens per second on an M4 Pro MacBook Pro, a vendor benchmark rather than an independently established performance guarantee.[13] The company says its AI research system contributed across model development, but humans supervised the process, so this is not evidence of autonomous self-improvement without oversight.[13] Recursive acknowledges that Flint needs more guidance than large paid coding assistants, and the article describes an early hands-on test on a Mac with 48 GB of memory.[13] For teams handling private repositories, the practical next step is to benchmark the actual workstation, task accuracy and review burden before assuming local inference will reduce total delivery cost.\n\nSources:\n[13] https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai",
+      "readTime": "4 min",
+      "impact": "High",
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/"
+    },
+    {
+      "id": "2026-10-22-1",
+      "title": "OpenAI acquires Orchestra Bio to connect drug-development agents with Rosalind",
+      "source": "SiliconANGLE",
+      "time": "06:03",
+      "category": "Business",
+      "tag": "From the radar",
+      "summary": "OpenAI acquired Orchestra Bio, whose agents help pharmaceutical teams monitor studies and coordinate drug-development programs, according to October 20 reporting by SiliconANGLE.[7] The team and technology will join the Rosalind life-sciences business, with agents intended to identify how problems such as a failed manufacturing batch affect downstream activities and timelines while people retain final decisions.[7] The report also describes financial tracking and clinical-trial scheduling, placing this in operational workflow coordination rather than only scientific question answering.[7] Financial terms and a timetable for incorporating Orchestra agents into OpenAI products were not disclosed.[7] This is a vertical-software acquisition, not a verified agency contract or evidence of customer savings. A plausible services niche is integrating study-status data and human approval queues across disconnected systems, with domain expertise and validation required before production use.\n\nSources:\n[7] https://siliconangle.com/2026/10/20/openai-acquires-orchestra-bio-to-bring-ai-agents-into-drug-development",
+      "readTime": "4 min",
+      "impact": "Medium",
+      "url": "https://siliconangle.com/2026/10/20/openai-acquires-orchestra-bio-to-bring-ai-agents-into-drug-development/"
+    }
+  ]
+}
