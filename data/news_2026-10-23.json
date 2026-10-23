@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T06:02:26.814167+06:00",
+  "stories": [
+    {
+      "title": "Schaeffler and Wandelbots partner to scale reusable robotics applications across factories",
+      "source": "Wandelbots / Schaeffler",
+      "time": "06:02",
+      "category": "Robotics",
+      "tag": "Fresh signal",
+      "summary": "Schaeffler and Wandelbots announced an October 22 technology partnership to develop a physical-AI platform based on Wandelbots NOVA, connecting AI models, simulation and robot applications across manufacturing sites.[8][9] The planned platform uses NVIDIA Omniverse and Isaac Sim for virtual testing and aims to make validated robotic skills reusable across different machines and plants.[8][9] Wandelbots reports that an earlier robot-assisted packaging project shortened development by around two weeks per application, but this is a supplier-reported example rather than an independent benchmark.[8] The partners target lifecycle-cost reductions of up to 40 percent; that is a goal, not an established saving across the production network.[8] The announcement establishes a commercial technology partnership, not a completed worldwide rollout, and discloses no contract price or plant-by-plant deployment schedule.[8][9] For integrators, the practical opening is simulation-led commissioning, reusable task libraries and ongoing support for mixed robot fleets.\n\nSources:\n[8] https://www.wandelbots.com/news/schaeffler-leverages-wandelbots-nova-as-its-physical-ai-platform\n[9] https://www.marketscreener.com/news/physical-ai-schaeffler-and-wandelbots-enter-into-technology-partnership-ce785cd9d18bf124",
+      "readTime": "4 min",
+      "impact": "Medium",
+      "url": "https://www.wandelbots.com/news/schaeffler-leverages-wandelbots-nova-as-its-physical-ai-platform",
+      "id": "2026-10-23-0"
+    },
+    {
+      "title": "ESTsoft wins a six-month project for private enterprise AI at Jeju development agency",
+      "source": "Seoul Economic Daily",
+      "time": "06:02",
+      "category": "Business",
+      "tag": "From the radar",
+      "summary": "ESTsoft said it won a contract to build an internal generative-AI platform for the Jeju Free International City Development Center, according to October 21 reporting by Seoul Economic Daily.[1] The six-month project combines locally hosted language models, department-specific assistants and retrieval over about 3.8 terabytes of internal documents, with links to existing enterprise systems.[1] Its delivery scope also includes API-based task agents, an agent builder, closed-network security and monitoring, and an LLMOps framework, making this an implementation and operations project rather than simple subscription resale.[1] The planned environment is separated from the public internet; the report also mentions external-data connections without explaining how those transfers will be governed.[1] Contract value, engagement pricing and measured customer outcomes are not disclosed, and the system is described as work to be built rather than a completed deployment.[1] A practical services niche is permission-aware internal search followed by tightly scoped task automation, with secure data ingestion and ongoing monitoring priced explicitly.\n\nSources:\n[1] https://en.sedaily.com/technology/2026/10/21/estsoft-wins-jdc-deal-to-build-in-house-generative-ai",
+      "readTime": "4 min",
+      "impact": "Medium",
+      "url": "https://en.sedaily.com/technology/2026/10/21/estsoft-wins-jdc-deal-to-build-in-house-generative-ai",
+      "id": "2026-10-23-1"
+    }
+  ]
+}
