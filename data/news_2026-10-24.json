@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T06:03:13.118281+06:00",
+  "stories": [
+    {
+      "title": "OpenAI details offline frontier training and layered containment after security failures",
+      "source": "OpenAI",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "OpenAI’s October 23 security report describes stronger containment for internal frontier-model training and evaluation, including a policy of conducting frontier training without internet access.[1] Its design combines restricted containers, virtual machines, monitoring and network controls, while an indexed, cached “offline world” lets models practice web tasks without interacting with live external systems.[1] The company says red-team agents found previously unknown software vulnerabilities, configuration weaknesses and communication channels across supposedly isolated environments; the findings led to patches and tighter controls.[1] OpenAI says frontier reinforcement-learning training and internal inference resumed on October 1 after an 11-day pause, so this is a new disclosure about earlier operational changes rather than a new restart.[1] These are the company’s findings about research environments, not evidence of a breach of customer deployments or a guarantee that containment cannot fail.[1] For implementation teams, the practical lesson is to test network restrictions and monitoring independently of an agent’s own instructions.\n\nSources:\n[1] https://openai.com/index/securing-our-frontier-model-training-environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "impact": "High",
+      "readTime": "5 min",
+      "time": "06:03",
+      "id": "2026-10-24-0"
+    },
+    {
+      "title": "Sutherland and FlowX.AI announce outcome-priced delivery and operation of enterprise agents",
+      "source": "Sutherland / FlowX.AI",
+      "category": "Business",
+      "tag": "From the radar",
+      "summary": "Sutherland’s October 20 announcement confirms a partnership with FlowX.AI to engineer, integrate, deploy and operate AI agents across regulated enterprise workflows.[6] FlowX.AI supplies the platform, while Sutherland provides certified delivery teams and ongoing operational support, making this an implementation-and-operations offering rather than just model-access resale.[6][7] The companies describe committed, outcome-based pricing but disclose no rates or detailed payment formula; their first joint solutions are expected in the coming months, not presented as completed customer deployments.[7] Proposed workflows include banking onboarding, insurance claims, healthcare administration and logistics invoice reconciliation, with integration into existing systems rather than mandatory replacement of core software.[7] The announcements verify the partnership and intended service model, not independently measured customer savings.[6][7] For an agency, the useful pattern is a narrow workflow engagement with agreed success metrics, human escalation and an ongoing monitoring contract.\n\nSources:\n[6] https://www.sutherlandglobal.com/about-us/latest-news/2026/sutherland-flowxai-partner-to-deliver-enterprise-ai-for-regulated-industries?locale=de_de\n[7] https://www.flowx.ai/blog/sutherland-and-flowx-ai-partner-to-deliver-ai-for-regulated-industries",
+      "url": "https://www.sutherlandglobal.com/about-us/latest-news/2026/sutherland-flowxai-partner-to-deliver-enterprise-ai-for-regulated-industries?locale=de_de",
+      "impact": "Medium",
+      "readTime": "4 min",
+      "time": "06:03",
+      "id": "2026-10-24-1"
+    }
+  ]
+}
