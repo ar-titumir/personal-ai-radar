@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T06:02:46.394625+06:00",
+  "stories": [
+    {
+      "title": "Moonshot announces Kimi K3.1 Pro with reduced cyber-offensive training",
+      "source": "Reuters / RTHK",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "Moonshot introduced Kimi K3.1 Pro on October 24 and said it removed cyber-related data from training and reinforcement-learning environments to reduce offensive capabilities while retaining general coding skills.[15] The company plans to publish the model weights by November 4, so the announcement should not be mistaken for weights already available to download.[15] Reuters reports that the model scored 81 percent on an internal cyber benchmark versus 90.5 percent for a comparable version without those measures; those company results have not been independently verified.[15] The tests involved finding and exploiting vulnerabilities in a controlled environment, and the filtered model still exceeded its predecessor on that measure.[15] For enterprise deployments, reduced training exposure is not a substitute for tool permissions, network restrictions and independent security evaluations. An agency can use the announcement as a prompt to build model-specific acceptance tests before allowing coding agents to act on production systems.\n\nSources:\n[15] https://gbcode.rthk.hk/TuniS/news.rthk.hk/rthk/en/component/k2/1875185-20261024.htm?spTabChangeable=0",
+      "url": "https://gbcode.rthk.hk/TuniS/news.rthk.hk/rthk/en/component/k2/1875185-20261024.htm?spTabChangeable=0",
+      "readTime": "3 min",
+      "impact": "High",
+      "id": "2026-10-25-0",
+      "time": "06:02"
+    },
+    {
+      "title": "adesso offers ServiceNow AI governance as a managed implementation and operations service",
+      "source": "adesso",
+      "category": "Business",
+      "tag": "From the radar",
+      "summary": "adesso announced on October 21 that it is offering ServiceNow AI Control Tower as an immediately available managed service across EMEA, with a focus on German-speaking markets.[6] The stated scope covers assessment, consulting, implementation and ongoing operations, rather than merely reselling access to an AI platform.[6] The offering is intended to give customers a central view of deployed models and agents and support governance, security, observation and measurement.[6] The announcement includes a ServiceNow executive confirming the relationship, but provides neither service prices nor named customer deployments or independently measured outcomes.[6] Claims about reduced risk and avoided in-house effort therefore remain vendor claims rather than demonstrated savings.[6] A concrete services opportunity is to package an AI inventory and permissions assessment as an initial engagement, followed by a recurring governance and monitoring contract with explicitly defined responsibilities.\n\nSources:\n[6] https://www.adesso.de/en/news/presse/adesso-expands-partnership-with-servicenow-with-managed-service.jsp",
+      "url": "https://www.adesso.de/en/news/presse/adesso-expands-partnership-with-servicenow-with-managed-service.jsp",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "id": "2026-10-25-1",
+      "time": "06:02"
+    }
+  ]
+}
