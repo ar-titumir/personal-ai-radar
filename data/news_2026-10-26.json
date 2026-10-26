@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T06:03:22.403147+06:00",
+  "stories": [
+    {
+      "title": "Musk says SpaceX closed $40 billion in debt financing for GPU purchases",
+      "source": "Reuters",
+      "category": "Business",
+      "tag": "Fresh signal",
+      "summary": "Elon Musk said SpaceX had closed $40 billion in debt financing for graphics processors, Reuters reported on October 25.[17] He described the financing as primarily callable debt for GPU purchases arriving in the first and second quarters, rather than a major factor in the current quarter.[17] Reuters had previously reported talks to raise that amount for Nvidia AI chips, so the new development is the claimed financing close rather than the start of negotiations.[17] Musk attributed continued credit access to investment-grade status and revenue from the Starlink and launch businesses.[17] The report illustrates the capital demands of AI infrastructure, but it does not establish that the financed hardware has already been delivered or disclose a customer-facing inference price.[17] For agencies, the practical implication is to benchmark hosted inference against local alternatives on their own workloads rather than treating infrastructure spending as proof of cheaper service.\n\nSources:\n[17] https://wireless.reuters.com/business/media-telecom/musk-says-spacex-raised-40-billion-debt-gpus-2026-10-25",
+      "url": "https://wireless.reuters.com/business/media-telecom/musk-says-spacex-raised-40-billion-debt-gpus-2026-10-25",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "id": "2026-10-26-0",
+      "time": "06:03"
+    },
+    {
+      "title": "Thrive details AI-assisted managed support built on ServiceNow",
+      "source": "ServiceNow / Thrive",
+      "category": "Business",
+      "tag": "From the radar",
+      "summary": "An October 22 ServiceNow announcement describes how managed-services provider Thrive deployed Technology Provider Service Management and AI agents in its customer-support operation.[32] The implementation centralizes incident triage, routes work and generates case summaries and resolution notes, supporting service delivery rather than merely reselling AI access.[32] The announcement reports a 73 percent first-contact resolution rate and more than 315,000 tasks routed through AI automation every six months; these are company-reported results, not independently audited benchmarks.[32] It also describes device-health visibility and remote diagnosis through ServiceNow digital employee experience capabilities and TeamViewer connectivity.[32] The release includes confirmation from Thrive leadership but discloses neither engagement prices nor customer contract terms.[32] For an agency serving mid-market clients, a concrete starting offer is a measured ticket-triage and documentation pilot followed by managed monitoring, with human escalation and access controls defined before rollout.\n\nSources:\n[32] https://investor.servicenow.com/news/news-details/2026/Thrive-scales-customer-experience-with-ServiceNow-AI-achieving-73-first-contact-resolution",
+      "url": "https://investor.servicenow.com/news/news-details/2026/Thrive-scales-customer-experience-with-ServiceNow-AI-achieving-73-first-contact-resolution/",
+      "readTime": "4 min",
+      "impact": "Medium",
+      "id": "2026-10-26-1",
+      "time": "06:03"
+    }
+  ]
+}
