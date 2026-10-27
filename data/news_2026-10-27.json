@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T06:03:09.207671+06:00",
+  "stories": [
+    {
+      "title": "BrainChip adds SPI-connected on-device learning to existing microcontroller designs",
+      "source": "BrainChip / Design & Reuse",
+      "category": "Edge AI",
+      "tag": "Fresh signal",
+      "summary": "BrainChip announced the AKD1500 SPI on October 26, a neuromorphic coprocessor designed to add local AI to microcontroller-based devices through their existing SPI interface.[6] The host microcontroller retains device control while passing sensor data to the coprocessor, which runs the neural network and returns a result such as a recognized word or detected fault.[6] BrainChip says the chip supports on-device learning and multiple AI tasks, and is available through its shop, DigiKey or direct sales.[6] The announcement includes partner comments about embedded evaluation and EEG glasses, but supplies no independent power benchmark, clinical validation or evidence of a large healthcare deployment.[6] For hardware integrators, the useful test is whether a sensor-classification or voice-trigger workload can meet its accuracy, power and latency budget without replacing the existing controller.\n\nSources:\n[6] https://design-reuse.com/news/202531328-brainchip-unveils-akd1500-spi-chip-bringing-neuromorphic-ai-to-everyday-edge-devices",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "url": "https://design-reuse.com/news/202531328-brainchip-unveils-akd1500-spi-chip-bringing-neuromorphic-ai-to-everyday-edge-devices",
+      "id": "2026-10-27-0",
+      "time": "06:03"
+    },
+    {
+      "title": "Cognizant and EBRD agree five-year AI-enabled managed-services framework",
+      "source": "Cognizant / EBRD",
+      "category": "Business",
+      "tag": "From the radar",
+      "summary": "Cognizant announced on October 26 that the European Bank for Reconstruction and Development selected it for a five-year technology-services framework supporting the banks Tech Blueprint transformation programme.[1] The engagement combines outcome-led managed services with fixed-capacity services across workplace management, infrastructure, data, security, software engineering, automation and AI.[1] Cognizant plans to apply Neuro IT Operations, Flowsource and WorkNEXT to operational visibility, software development and AI-assisted workplace support; these are planned delivery capabilities, not demonstrated customer results.[1] EBRD technology leaders quoted in the announcement confirm the relationship and its managed-services focus, distinguishing the engagement from simple platform resale.[1] The release discloses no contract value, unit prices or measured savings.[1] For an agency, the relevant model is to separate a defined delivery-capacity retainer from outcome-linked operational work, with acceptance criteria and human escalation agreed before deployment.\n\nSources:\n[1] https://news.cognizant.com/2026-10-26-Cognizant-and-EBRD-Partner-to-Accelerate-Digital-Transformation-Through-AI-Led,-Outcome-Driven-Services",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "url": "https://news.cognizant.com/2026-10-26-Cognizant-and-EBRD-Partner-to-Accelerate-Digital-Transformation-Through-AI-Led,-Outcome-Driven-Services",
+      "id": "2026-10-27-1",
+      "time": "06:03"
+    }
+  ]
+}
