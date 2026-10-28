@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-28T06:03:00.154167+06:00",
+  "stories": [
+    {
+      "id": "2026-10-28-0",
+      "title": "IBM releases agent identity and credential controls; discovery and containment remain previews",
+      "source": "IBM",
+      "time": "06:03",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "IBM announced on October 27 that Agent Identity, HashiCorp Vault 2.2 and watsonx Orchestrate evaluation capabilities are generally available.[6] The offering combines an ownership and authorization record for each agent with short-lived credentials, least-privilege access and revocation controls, while evaluation adds testing and production cost tracking.[6] Availability differs across the portfolio: Orchestrate discovery and containment are technology previews, and Secure Hub is in public preview, so buyers should not assume all announced safeguards are production-ready.[6] IBM also describes integration with NVIDIA OpenShell to connect runtime restrictions with identity and credentials; the release does not provide independent security-test results.[6] For implementation teams, the practical starting point is an agent inventory and credential audit, followed by revocation drills and explicit approval boundaries before expanding autonomy.\n\nSources:\n[6] https://newsroom.ibm.com/2026-10-27-ibm-introduces-identity-and-control-for-ai-agents,-securing-frontier-intelligence-for-the-enterprise",
+      "readTime": "3 min",
+      "impact": "High",
+      "url": "https://newsroom.ibm.com/2026-10-27-ibm-introduces-identity-and-control-for-ai-agents,-securing-frontier-intelligence-for-the-enterprise"
+    },
+    {
+      "id": "2026-10-28-1",
+      "title": "Intel and Oracle plan Xeon expansion for enterprise agents and smaller-model inference",
+      "source": "Intel / Oracle",
+      "time": "06:03",
+      "category": "Devices",
+      "tag": "Fresh signal",
+      "summary": "Intel and Oracle announced plans on October 27 for a multiyear collaboration to expand Xeon-based computing on Oracle Cloud Infrastructure, including planned X14 offerings using the forthcoming Diamond Rapids processor.[7] The intended workloads include agent orchestration, enterprise applications, embeddings, reranking and smaller-model inference, rather than replacing accelerators for every large-model workload.[7] Planned processor features include enhanced matrix extensions supporting FP8, FP16 and BF16, but the announcement gives no independently measured performance or customer pricing.[7] X14 and its future capabilities are roadmap items, not a claim that these instances are already available; Oracle explicitly cautions against relying on future functionality for purchasing decisions.[7] Agencies can use this as a reason to benchmark the CPU and accelerator stages of a client workflow separately, without making a proposal depend on unshipped hardware.\n\nSources:\n[7] https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-oracle-collaborate-on-enterprise-and-agentic-ai.html",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-oracle-collaborate-on-enterprise-and-agentic-ai.html"
+    },
+    {
+      "id": "2026-10-28-2",
+      "title": "GXO expands Digit robotics partnership to two more warehouses, with rollout planned for 2027",
+      "source": "Agility Robotics / Unite.AI",
+      "time": "06:03",
+      "category": "Robotics",
+      "tag": "From the radar",
+      "summary": "GXO and Agility Robotics announced on October 26 that their commercial humanoid-robot partnership will expand to the Statesville, North Carolina, and Lebanon, Tennessee, facilities for repetitive e-commerce material handling.[4][5] Deployments are expected to start in early 2027 with Digit 4 and move to Digit 5 when it becomes commercially available; the new sites are not described as already operating.[4] The expansion builds on a multiyear Robots-as-a-Service agreement at the existing Georgia operation, where the companies report that Digit has moved more than 100,000 totes.[4][5] Agility Arc supplies fleet management and operational integration, but the announcement does not disclose the number of robots at the new sites, contract pricing or independently audited savings.[4] This is a named warehouse customer and a concrete expansion agreement, not evidence of readiness for home care. A plausible services niche is warehouse-readiness assessment, conveyor and fleet-software integration, and ongoing exception monitoring alongside the robot supplier.\n\nSources:\n[4] https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations\n[5] https://www.unite.ai/gxo-agility-robotics-expand-digit-humanoid-deployments-to-more-u-s-sites",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "url": "https://www.agilityrobotics.com/content/gxo-and-agility-robotics-expand-partnership-to-accelerate-deployment-of-humanoids-in-u-s-operations"
+    }
+  ]
+}
