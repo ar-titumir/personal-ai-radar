@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T06:04:03.159451+06:00",
+  "stories": [
+    {
+      "title": "Eclypsium demonstrates model tampering below the AI runtime on a misconfigured test system",
+      "source": "Eclypsium",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "Eclypsium researchers demonstrated that privileged access to underlying infrastructure can alter a running model in memory while its original model file and on-disk integrity checks remain unchanged.[7] The controlled demonstration used an NVIDIA GH200 system and a BlueField data processing unit, with IOMMU passthrough and permissive PCIe isolation; the report explicitly says these were not default Linux settings and that stronger isolation blocked the same direct memory path.[7] This is a conditional laboratory demonstration, not evidence that every NVIDIA deployment is vulnerable or that customer systems have been breached.[7] Eclypsium says it coordinated the findings with NVIDIA and recommends component inventories, management-plane protection, independent monitoring and continuous verification of hardware security settings.[7] For teams hosting private models, the practical implication is to audit the server and firmware boundary as well as prompts, containers and model files.\n\nSources:\n[7] https://eclypsium.com/wp-content/uploads/Trusted-AI-Requires-Trusted-Infrastructure.pdf",
+      "url": "https://eclypsium.com/wp-content/uploads/Trusted-AI-Requires-Trusted-Infrastructure.pdf",
+      "readTime": "3 min",
+      "impact": "High",
+      "id": "2026-10-30-0",
+      "time": "06:04"
+    },
+    {
+      "title": "Opentrons raises $40 million to expand laboratory robots and AI-driven experimentation",
+      "source": "SiliconANGLE",
+      "category": "Robotics",
+      "tag": "From the radar",
+      "summary": "Opentrons announced a $40 million Series E led by healthcare investor Avego, with BroadOak Capital Partners participating, according to October 29 reporting by SiliconANGLE.[12] The funding is intended to expand its robotics, software and data infrastructure for laboratory automation.[12] Its existing Flex and OT-2 benchtop robots automate liquid handling; Flex can also use a robotic gripper to move plates and connect more experimental steps without manual intervention.[12] The company reports more than 11,000 robots deployed across over 80 countries, figures attributed to Opentrons rather than independently audited by the article.[12] This is a funding event around commercially deployed laboratory equipment, not a home-care robot launch or evidence of autonomous clinical decision-making.[12] The report supplies no customer engagement prices or measured return on investment.[12] A plausible integration niche is translating validated laboratory protocols into robot workflows, connecting experiment records to laboratory data systems and providing ongoing exception monitoring.\n\nSources:\n[12] https://siliconangle.com/2026/10/29/science-robotics-startup-opentrons-raises-40m-to-standardize-laboratory-automation",
+      "url": "https://siliconangle.com/2026/10/29/science-robotics-startup-opentrons-raises-40m-to-standardize-laboratory-automation",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "id": "2026-10-30-1",
+      "time": "06:04"
+    }
+  ]
+}
