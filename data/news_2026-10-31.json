@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T06:02:30.782873+06:00",
+  "stories": [
+    {
+      "title": "Oracle establishes OpenAI-powered AI implementation and operations practice",
+      "source": "Oracle",
+      "category": "Business",
+      "tag": "Fresh signal",
+      "summary": "Oracle announced on October 27 that it is establishing an AI consulting practice combining OpenAI technology with Oracle applications, infrastructure and Customer Success Services delivery teams.[12] The planned work spans agent customization, application development, enterprise-data integration and security, with consulting continuing through monitoring and operations rather than ending at model-access resale.[12] Oracle says its teams will lead customer engagements while OpenAI contributes technology expertise and training.[12] The announcement describes testing, evaluation, model selection and cost management as delivery responsibilities, but does not disclose engagement prices, named customer contracts or measured savings.[12] This is a newly announced service practice, not proof that its proposed customer outcomes have already been achieved.[12] A practical agency opening is a narrowly scoped enterprise workflow pilot with separate fees for data integration, acceptance testing and ongoing monitoring.\n\nSources:\n[12] https://www.oracle.com/middleeast/news/announcement/blog/ai-world-oracle-launches-ai-services-practice-powered-by-openai-technology-to-put-enterprise-ai-to-work-2026-10-27",
+      "url": "https://www.oracle.com/middleeast/news/announcement/blog/ai-world-oracle-launches-ai-services-practice-powered-by-openai-technology-to-put-enterprise-ai-to-work-2026-10-27/",
+      "id": "2026-10-31-0",
+      "time": "06:02",
+      "readTime": "3 min",
+      "impact": "Medium"
+    },
+    {
+      "title": "ENCY and ESTUN integrate robot programming and simulation, with first production user reported",
+      "source": "Controls, Drives & Automation",
+      "category": "Robotics",
+      "tag": "From the radar",
+      "summary": "Controls, Drives & Automation reported on October 26 that ENCY Software and ESTUN have begun a technology partnership to simplify programming and simulation for European industrial-robot users.[9] ENCY completed integration work on two ESTUN robots at its Cyprus research centre, including dedicated drivers and post-processors for controlling the machines from its software.[9] Digital twins of ESTUN robots and cobots are available in the ENCY component library, and the report says a first customer is already programming an ESTUN robot in production.[9] The customer is not named, and the article provides no deployment count beyond that example, contract pricing or measured productivity improvement.[9] This is industrial automation integration, not a care-robot launch or evidence of autonomous AI reasoning. A concrete service niche is offline cell programming, simulation-based commissioning and maintenance of task-specific robot programs for manufacturers.\n\nSources:\n[9] https://www.controlsdrivesautomation.com/ENCYSoftware-and-ESTUN-technology-partnership",
+      "url": "https://www.controlsdrivesautomation.com/ENCYSoftware-and-ESTUN-technology-partnership",
+      "id": "2026-10-31-1",
+      "time": "06:02",
+      "readTime": "3 min",
+      "impact": "Medium"
+    }
+  ]
+}
