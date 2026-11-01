@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T06:02:41.467880+06:00",
+  "stories": [
+    {
+      "id": "2026-11-01-0",
+      "title": "PwC UK expands FloQast partnership from integration to managed finance operations",
+      "source": "FloQast / PwC UK",
+      "time": "06:02",
+      "category": "Business",
+      "tag": "Fresh signal",
+      "summary": "FloQast announced on October 26 that PwC UK has expanded their partnership to run outsourced finance functions using its AI-enabled accounting platform.[1] The service covers month-end close, account reconciliations, accounting operations and compliance workflows, moving beyond consulting and software integration into ongoing delivery on behalf of clients.[1] A PwC UK finance managed-services leader confirms the relationship in the announcement, which describes adjustable service levels but gives no engagement prices or named customer results.[1] Faster deployment, reduced risk and improved efficiency are vendor claims rather than independently measured outcomes.[1] For an agency, the useful pattern is a narrow finance-operations engagement combining workflow integration, human review and recurring support, with audit trails and acceptance criteria defined before rollout.\n\nSources:\n[1] https://www.floqast.com/press-releases/floqast-and-pwc-uk-expand-partnership-to-provide-tech-powered-finance-managed-services",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "url": "https://www.floqast.com/press-releases/floqast-and-pwc-uk-expand-partnership-to-provide-tech-powered-finance-managed-services"
+    },
+    {
+      "id": "2026-11-01-1",
+      "title": "Marubun launches Aeolus robot security services with physical elevator-button operation",
+      "source": "IBTimes JP",
+      "time": "06:02",
+      "category": "Robotics",
+      "tag": "From the radar",
+      "summary": "Marubun announced on October 27 that it had launched security services using Aeolus Robotics robots for patrols and guard duties, according to October 28 reporting by IBTimes JP.[2] The offering extends its nursing-care robot activities into offices, commercial facilities and hospitals, with robotic arms pressing elevator buttons rather than connecting to elevator control systems.[2] The report describes image-based inspection alerts, posture detection and streaming video that lets remote staff assess incidents and speak through the robot.[2] Avoided elevator-integration costs are a company claim, not an independently verified saving; the article provides no named security customer, deployment count, service price or clinical validation.[2] This is a commercial service announcement rather than evidence of a large completed rollout or autonomous medical care. A plausible integration niche is site-readiness testing, patrol configuration and human-supervised alert handling, with maintenance responsibilities agreed with the robot supplier.\n\nSources:\n[2] https://jp.ibtimes.com/marubun-deploys-aeolus-security-robots-that-press-elevator-buttons-105012",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "url": "https://jp.ibtimes.com/marubun-deploys-aeolus-security-robots-that-press-elevator-buttons-105012"
+    }
+  ]
+}
