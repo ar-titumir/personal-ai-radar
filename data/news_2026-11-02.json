@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T06:02:14.067380+06:00",
+  "stories": [
+    {
+      "id": "2026-11-02-0",
+      "title": "Google runs Gemma on an orbital TPU as Suncatcher moves into environmental testing",
+      "source": "Google / The Next Web",
+      "time": "06:02",
+      "category": "Edge AI",
+      "tag": "Fresh signal",
+      "summary": "Google says its Project Suncatcher prototype has run the Gemma 4 open model on a data-centre-class TPU in orbit and returned a generated poem to Earth, followed by limerick and payload-telemetry tests.[12] The Next Web reported the milestone on November 1, following Google’s earlier announcement; this is fresh coverage of an experiment, not a newly available commercial computing service.[14] The satellite launched on October 1, and Google now plans to test TPU behaviour under orbital heat and radiation before a proposed pair of interconnected satellites in 2027.[12] The Next Web reports that the prototype carries four TPUs but can operate only one at a time for about 20 minutes because of its power limits.[14] The result demonstrates an initial inference workload, not reliable continuous operation or proven orbital computing economics. For practical edge deployments, the useful lesson is to benchmark power, thermal limits and remote telemetry before promising unattended model operation.\n\nSources:\n[12] https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response\n[14] https://thenextweb.com/news/google-suncatcher-satellite-first-ai-response-gemma-haiku",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/"
+    }
+  ]
+}
