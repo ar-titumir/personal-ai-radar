@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T06:02:59.842003+06:00",
+  "stories": [
+    {
+      "title": "Winbond announces low-power CUBE-Lite memory for edge AI, targeting 2027 production",
+      "source": "Winbond / PR Newswire",
+      "category": "Edge AI",
+      "tag": "Fresh signal",
+      "summary": "Winbond announced CUBE-Lite on November 4, a semi-custom memory design aimed at AI image processors, wearables, microcontrollers and other embedded AI systems.[1] The company reports up to 8 GB/s bandwidth at approximately 70 mW and roughly 20 ns access latency; these are vendor engineering figures, not independent device-level benchmarks.[1] Winbond also says its simplified interface can reduce controller power compared with an LPDDR4x implementation, but that does not establish the power savings of a complete product.[1] CUBE-Lite is still undergoing product validation, with mass production targeted for the first half of 2027, so it is not a generally shipping component today.[1] For edge-AI builders, the announcement highlights memory bandwidth and power as design constraints worth measuring alongside model accuracy. A practical services niche is hardware-selection and power-budget evaluation for private, on-device vision systems.\n\nSources:\n[1] https://finance.yahoo.com/technology/ai/articles/winbond-introduces-cube-lite-edge-140000391.html",
+      "url": "https://finance.yahoo.com/technology/ai/articles/winbond-introduces-cube-lite-edge-140000391.html",
+      "time": "06:02",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "id": "2026-11-05-0"
+    },
+    {
+      "title": "Parloa and Deloitte Canada pair customer-service AI with integration and managed services",
+      "source": "Unite.AI / Parloa",
+      "category": "Business",
+      "tag": "From the radar",
+      "summary": "Parloa announced an alliance and reseller agreement with Deloitte Canada on November 4 to bring its AI Agent Management Platform to Canadian customer-service operations.[3][5] The delivery scope includes contact-centre strategy, agent design, enterprise-system integration, governance and change management, with ongoing optimization and managed services extending beyond platform resale.[3] This is a Canada-specific expansion of an existing relationship, not the first partnership between the companies.[3] Unite.AI also describes Parloa Zones as a regional processing boundary for conversations, transcripts, logs and analytics, making data-residency verification part of implementation work.[3] The sources do not disclose engagement prices, named customer deployments under this agreement or independently measured savings.[3][5] For an agency, the useful model is a bounded customer-service workflow with explicit human escalation, integration acceptance tests and a recurring monitoring agreement rather than an unqualified promise to replace the contact centre.\n\nSources:\n[3] https://unite.ai/parloa-forms-deloitte-canada-alliance-for-ai-customer-service\n[5] https://www.prnewswire.com/news-releases/parloa-expands-north-american-agentic-cx-footprint-through-alliance-with-deloitte-canada-302928105.html",
+      "url": "https://www.unite.ai/parloa-forms-deloitte-canada-alliance-for-ai-customer-service/",
+      "time": "06:02",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "id": "2026-11-05-1"
+    }
+  ]
+}
