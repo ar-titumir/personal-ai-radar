@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T06:03:08.535090+06:00",
+  "stories": [
+    {
+      "id": "2026-11-06-0",
+      "title": "OpenAI introduces GPT-6 Cyber with restricted access and scope-following evaluations",
+      "source": "OpenAI",
+      "time": "06:03",
+      "category": "Models",
+      "tag": "Fresh signal",
+      "summary": "OpenAI introduced GPT-6 Cyber on November 5, initially making it available through the API and Codex to a select group of approved Daybreak Red customers rather than opening access to everyone.[12] The company reports a 48.5 percent score on ExploitGym, compared with 32.1 percent for GPT-5.6 Cyber, and improved adherence to authorized boundaries in a separate controlled evaluation.[12] These are vendor evaluations, not a guarantee that an agent will stay within scope in production. OpenAI also describes vulnerability research in Linux and Firefox, alongside cyber-specific monitoring, default IP allowlisting for Daybreak Red API access and continued recommendations for sandboxing and human oversight.[12] The practical distinction is stronger security-research capability paired with restricted access; teams should still define written authorization, isolated test environments and patch-validation procedures before deployment.\n\nSources:\n[12] https://openai.com/index/introducing-gpt-6-cyber/?cb=scout-20261105T2011f",
+      "readTime": "3 min",
+      "impact": "High",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber/?cb=scout-20261105T2011f"
+    },
+    {
+      "id": "2026-11-06-1",
+      "title": "Edera outlines bounded agent permissions, with credential-brokered API access still in development",
+      "source": "Edera / PR Newswire",
+      "time": "06:03",
+      "category": "Security",
+      "tag": "Fresh signal",
+      "summary": "Edera announced Object Capability Bounded Authority on November 5, describing permissions enforced outside an AI agent workload so that the agent receives authority for specific actions rather than broad access to underlying credentials.[11] Its design combines hardware isolation with scoped commands, workload identity and narrowly bounded resource access.[11] The availability section makes an important distinction: initial Agent Runtime functionality includes scoped command execution and workload identity, while credential-brokered API access and deeper integrations remain under development.[11] The announcement therefore does not establish that the complete credential-free API workflow is shipping today, and supplies no independent security test results.[11] For implementation teams, the useful pattern is to separate secrets from agent execution and test repository, command and network boundaries independently of the model instructions.\n\nSources:\n[11] https://www.prnewswire.com/news-releases/edera-redefines-ai-agent-security-with-bounded-authority-and-credential-free-access-302930175.html",
+      "readTime": "3 min",
+      "impact": "High",
+      "url": "https://www.prnewswire.com/news-releases/edera-redefines-ai-agent-security-with-bounded-authority-and-credential-free-access-302930175.html"
+    },
+    {
+      "id": "2026-11-06-2",
+      "title": "HD Hyundai Robotics reports faster troubleshooting after deploying Palantir-based AI agents",
+      "source": "The Korea Herald",
+      "time": "06:03",
+      "category": "Robotics",
+      "tag": "From the radar",
+      "summary": "The Korea Herald reported on November 1 that HD Hyundai Robotics has been using AI agents developed with Palantir since August to support robot troubleshooting and programming.[5] The company says average problem-resolution time fell from 21.5 days to 7.9 days; this is a company-reported operational result, not an independently audited benchmark.[5] The workflow combines AI, simulation and engineering knowledge: agents analyze existing robot programs and suggest changes, while engineers review and refine those suggestions.[5] A projected reduction of more than 50 percent in programming costs remains an expectation rather than a demonstrated saving.[5] The article identifies an industrial deployment but gives no fleet size or engagement price, and does not establish a healthcare or elder-care application.[5] A practical services niche is a human-reviewed robot-support workflow that connects maintenance records, simulation and program-change approvals.\n\nSources:\n[5] https://www.koreaherald.com/article/10921723",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "url": "https://www.koreaherald.com/article/10921723"
+    }
+  ]
+}
