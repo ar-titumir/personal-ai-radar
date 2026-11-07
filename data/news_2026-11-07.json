@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T06:03:11.381411+06:00",
+  "stories": [
+    {
+      "id": "2026-11-07-0",
+      "title": "LTM and ServiceNow expand enterprise agent delivery around an internal governance blueprint",
+      "source": "ServiceNow / The Hindu BusinessLine",
+      "time": "06:03",
+      "category": "Business",
+      "tag": "Fresh signal",
+      "summary": "ServiceNow and LTM announced on November 5 a planned expansion of their partnership to combine the ServiceNow AI Platform with LTM’s engineering and transformation services for enterprise agent deployments.[3][22] The companies intend to use LTM’s internal rollout as a reference for joint solutions and sales programs serving more than 700 shared customers, rather than presenting this as a newly completed rollout across those customers.[3][22] ServiceNow reports that LTM has deployed 1,500 agents internally, with centralized AI inventory and risk oversight; these are company-reported deployment figures, not an independent audit.[3] The projected improvement of up to 80 percent in AI asset management and efficiency is an expectation, not an established result of the expanded partnership.[3][22] Neither source discloses engagement prices or contract values.[3][22] For an implementation agency, the useful pattern is to pair a narrowly scoped workflow deployment with an agent inventory, permission review and recurring governance support.\n\nSources:\n[3] https://newsroom.servicenow.com/press-releases/details/2026/LTM-and-ServiceNow-expand-partnership-to-scale-agentic-AI-and-accelerate-joint-go-to-market\n[22] https://www.thehindubusinessline.com/info-tech/servicenow-and-ltm-deepen-ai-partnership-to-serve-700-shared-clients/article71669257.ece",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "url": "https://newsroom.servicenow.com/press-releases/details/2026/LTM-and-ServiceNow-expand-partnership-to-scale-agentic-AI-and-accelerate-joint-go-to-market/"
+    }
+  ]
+}
