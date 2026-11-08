@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T06:03:39.631317+06:00",
+  "stories": [
+    {
+      "id": "2026-11-08-0",
+      "title": "LHIND and Novagentica pair controlled enterprise agents with integration and managed operations",
+      "source": "Lufthansa Industry Solutions / Novagentica",
+      "time": "06:03",
+      "category": "Business",
+      "tag": "Fresh signal",
+      "summary": "Lufthansa Industry Solutions and Novagentica announced a November 6 partnership to integrate enterprise AI agents into existing systems and offer subsequent managed operations.[1][7] Novagentica supplies the licensed Architect platform, while LHIND supplies integration, process expertise and operational support, making this a delivery service rather than simple software resale.[1][7] The proposed controls set value limits, approval thresholds and escalation rules before consequential actions, then verify the result against the system of record rather than trusting an agent success message.[7] The partners say an initial customer project is implementing controlled write access, but do not name that customer or disclose prices, contract value or measured outcomes.[1][7] The announcements describe support for EU AI Act documentation, not a blanket certification of legal compliance.[7] A practical agency offering is a bounded ERP workflow with approval gates, transaction reconciliation and recurring monitoring.\n\nSources:\n[1] https://novagentica.com/press-lhind-partnership\n[7] https://www.lufthansa-industry-solutions.com/de-en/newsroom-downloads/news/lhind-and-novagentica-partner-on-ai-agents",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "url": "https://www.lufthansa-industry-solutions.com/de-en/newsroom-downloads/news/lhind-and-novagentica-partner-on-ai-agents"
+    },
+    {
+      "id": "2026-11-08-1",
+      "title": "Serve Robotics reports hospital contract renewals as recurring fleet services grow",
+      "source": "Serve Robotics",
+      "time": "06:03",
+      "category": "Robotics",
+      "tag": "From the radar",
+      "summary": "Serve Robotics reported on November 5 that its healthcare business entered into 12 multi-year hospital contract extensions and added four hospitals during the year through the third quarter.[2] The company acquired Diligent Robotics in 2026, extending its operations from sidewalk delivery into indoor hospital service robots.[2] These are company-reported commercial relationships, not independently audited clinical outcomes. Across the whole business, recurring revenue represented 69 percent of quarterly revenue; that figure is not a hospital-only revenue share.[2] The release does not identify the renewing hospitals, disclose contract prices or establish a medical-device approval or reimbursement model.[2] For a services business, the relevant opening is hospital logistics integration, fleet monitoring and maintenance with explicit uptime and escalation responsibilities, rather than claims that robots replace clinical care.\n\nSources:\n[2] https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-announces-third-quarter-2026-results",
+      "readTime": "3 min",
+      "impact": "Medium",
+      "url": "https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-announces-third-quarter-2026-results"
+    }
+  ]
+}
